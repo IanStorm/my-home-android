@@ -1,2 +1,4 @@
-# my-home-android
-Non-public configuration for all Android devices in my home.
+# My Home - Android 📱
+
+Garage project for **private purposes**.
+Centralizes and simplifies setup for Android devices in my home.
