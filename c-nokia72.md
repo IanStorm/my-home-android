@@ -1,0 +1,91 @@
+| App name | OSS? | Privacy? |
+|----------|------|----------|
+| [Audio Recorder](https://play.google.com/store/apps/details?id=com.github.axet.audiorecorder) | [✔️ GitLab](https://gitlab.com/axet/android-audio-recorder) | ✔️ [Exodus](https://reports.exodus-privacy.eu.org/en/reports/com.github.axet.audiorecorder/latest/) |
+| [AusweisApp2](https://play.google.com/store/apps/details?id=com.governikus.ausweisapp2) | ? | ? |
+| [Automate](https://play.google.com/store/apps/details?id=com.llamalab.automate) | ? | ? |
+| [Bing](https://play.google.com/store/apps/details?id=com.microsoft.bing) | ? | ? |
+| [Bitwarden](https://play.google.com/store/apps/details?id=com.x8bit.bitwarden) | [✔️ GitHub](https://github.com/bitwarden/mobile) | ? |
+| [BOB](https://play.google.com/store/apps/details?id=com.initka.android.bobapp) | ? | ? |
+| [Booking.com](https://play.google.com/store/apps/details?id=com.booking) | ? | ? | / |
+| [Boxcryptor](https://play.google.com/store/apps/details?id=com.boxcryptor2.android) | ? | ? |
+| [Calculator](https://play.google.com/store/apps/details?id=com.google.android.calculator) | ❌ built-in | ? |
+| [Calcy IV](https://play.google.com/store/apps/details?id=tesmath.calcy) (for _Pokémon GO_) | ? | ? |
+| [Calendar](https://play.google.com/store/apps/details?id=com.google.android.calendar) | ❌ built-in | ? |
+| [Cambio](https://play.google.com/store/apps/details?id=de.cambio.app) | ? | ? |
+| [Camera](https://play.google.com/store/apps/details?id=com.hmdglobal.app.camera) | ❌ built-in | ? | ? |
+| [Clock](https://play.google.com/store/apps/details?id=com.google.android.deskclock) | ❌ built-in | ? | ? |
+| [Contacts](https://play.google.com/store/apps/details?id=com.google.android.contacts) | ❌ built-in | ? | ? |
+| [Corona-Warn-App](https://play.google.com/store/apps/details?id=de.rki.coronawarnapp) | [✔️ GitHub](https://github.com/corona-warn-app/cwa-app-android) | ? |
+| [DailyPic](https://play.google.com/store/apps/details?id=partl.dailypic) | ? | ? |
+| [DB Navigator](https://play.google.com/store/apps/details?id=de.hafas.android.db) | ? | ? |
+| [Dict.cc](https://play.google.com/store/apps/details?id=cc.dict.dictcc) | ? | ? |
+| [Digital Wellbeing](https://play.google.com/store/apps/details?id=com.google.android.apps.wellbeing) | ❌ built-in | ? |
+| [FahrPlaner](https://play.google.com/store/apps/details?id=de.hafas.android.vbn) | ? | ? |
+| [Feedly](https://play.google.com/store/apps/details?id=com.devhd.feedly) | ? | ? |
+| [Files](https://play.google.com/store/apps/details?id=com.google.android.apps.nbu.files) | ? | ? |
+| [Firefox](https://play.google.com/store/apps/details?id=org.mozilla.firefox) | [✔️ GitHub](https://github.com/mozilla-mobile/fenix) | ? |
+| [Fitbit](https://play.google.com/store/apps/details?id=com.fitbit.FitbitMobile) | ? | ? |
+| FM Radio | ? | ? |
+| [Fully Kiosk Browser](https://play.google.com/store/apps/details?id=de.ozerov.fully) | ? | ? |
+| [Gmail](https://play.google.com/store/apps/details?id=com.google.android.gm) | ? | ? |
+| [Google](https://play.google.com/store/apps/details?id=com.google.android.googlequicksearchbox) | ? | ? |
+| [Google Pay](https://play.google.com/store/apps/details?id=com.google.android.apps.walletnfcrel) | ? | ? |
+| [Google Play Services For AR](https://play.google.com/store/apps/details?id=com.google.ar.core) (for _Pokémon GO_) | ? | ? |
+| [Hahabu](https://play.google.com/store/apps/details?id=com.sro.hahabu) | ? | ? |
+| [Hangouts](https://play.google.com/store/apps/details?id=com.google.android.talk) | ? | ? |
+| [Heavens-Above](https://play.google.com/store/apps/details?id=com.heavens_above.viewer) | ? | ? |
+| [HSL](https://play.google.com/store/apps/details?id=fi.hsl.app) | ? | ? |
+| [ING Banking](https://play.google.com/store/apps/details?id=de.ingdiba.bankingapp) | ? | ? |
+| [KATWARN](https://play.google.com/store/apps/details?id=de.combirisk.katwarn) | ? | ? |
+| [Kicker](https://play.google.com/store/apps/details?id=com.netbiscuits.kicker) | ? | ? |
+| Microsoft [Lens](https://play.google.com/store/apps/details?id=com.microsoft.office.officelens) | ? | ? |
+| [Lieferando](https://play.google.com/store/apps/details?id=com.yopeso.lieferando) | ? | ? |
+| [Maps](https://play.google.com/store/apps/details?id=com.google.android.apps.maps) | ? | ? |
+| [Meine Pegel](https://play.google.com/store/apps/details?id=de.hochwasserzentralen.app) | ? | ? |
+| [MeinMagenta](https://play.google.com/store/apps/details?id=de.telekom.android.customercenter) | ? | ? |
+| [Messages](https://play.google.com/store/apps/details?id=com.google.android.apps.messaging) | ? | ? |
+| [Microsoft SwiftKey Keyboard](https://play.google.com/store/apps/details?id=com.touchtype.swiftkey) | ? | ? |
+| [My Device](https://play.google.com/store/apps/details?id=com.hmdglobal.support) | ? | ? |
+| [NFC Tools](https://play.google.com/store/apps/details?id=com.wakdev.wdnfc) | ? | ? |
+| [NINA](https://play.google.com/store/apps/details?id=de.materna.bbk.mobile.app) | ? | ? |
+| Microsoft [OneDrive](https://play.google.com/store/apps/details?id=com.microsoft.skydrive) | ? | ? |
+| Microsoft [OneNote](https://play.google.com/store/apps/details?id=com.microsoft.office.onenote) | ? | ? |
+| [Oral-B](https://play.google.com/store/apps/details?id=com.pg.oralb.oralbapp) | ? | ? |
+| [Parsec](https://play.google.com/store/apps/details?id=tv.parsec.client) | ? | ? |
+| [PassAndroid](https://play.google.com/store/apps/details?id=org.ligi.passandroid) | [✔️ GitHub](https://github.com/ligi/PassAndroid) | ? |
+| [(e)PassGo](https://play.google.com/store/apps/details?id=de.passgo.passgo) | ? | ? |
+| [Phone](https://play.google.com/store/apps/details?id=com.google.android.dialer) | ? | ? |
+| Google [Photos](https://play.google.com/store/apps/details?id=com.google.android.apps.photos) | ? | ? |
+| Play Store | ❌ built-in | ? |
+| [Pokémon GO](https://play.google.com/store/apps/details?id=com.nianticlabs.pokemongo) | ? | ? |
+| [Post & DHL](https://play.google.com/store/apps/details?id=de.dhl.paket) | ? | ? |
+| [QR Scanner](https://play.google.com/store/apps/details?id=com.teacapps.barcodescanner) | ? | ? |
+| [Reddit](https://play.google.com/store/apps/details?id=com.reddit.frontpage) | ? | ? |
+| [SafeVac](https://play.google.com/store/apps/details?id=de.pei.safevac) | ? | ? |
+| Settings | ❌ built-in | ? |
+| [Share To Clipboard](https://play.google.com/store/apps/details?id=com.tengu.sharetoclipboard) | [✔️ GitHub](https://github.com/tengusw/share_to_clipboard) | ? |
+| [Signal](https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms) | [✔️ GitHub](https://github.com/signalapp/Signal-Android) | ? |
+| SIM Toolkit | ❌ built-in | ? |
+| [SJ](https://play.google.com/store/apps/details?id=se.sj.android) | ? | ? |
+| [Sportschau](https://play.google.com/store/apps/details?id=de.apptelligence.sportschau.android) | ? | ? |
+| [Spotify](https://play.google.com/store/apps/details?id=com.spotify.music) | ? | ? |
+| [Square Home](https://play.google.com/store/apps/details?id=com.ss.squarehome2)<br>[Square Home Key](https://play.google.com/store/apps/details?id=com.ss.squarehome.key) | ? | ? |
+| [SV Werder](https://play.google.com/store/apps/details?id=de.werder.werderbremen) | ? | ? |
+| [Swapfiets](https://play.google.com/store/apps/details?id=com.swapfiets) | ? | ? |
+| [Tagesschau](https://play.google.com/store/apps/details?id=de.tagesschau) | ? | ? |
+| [Tallink \| Silja](https://play.google.com/store/apps/details?id=com.tallink.mikiandroid) | ? | ? |
+| [Threema](https://play.google.com/store/apps/details?id=ch.threema.app) | [✔️ GitHub](https://github.com/threema-ch/threema-android) | ? |
+| [Tiltification](https://play.google.com/store/apps/details?id=de.uni_bremen.informatik.sonification_apps) | ? | ? |
+| Microsoft [To Do](https://play.google.com/store/apps/details?id=com.microsoft.todos) | ? | ? |
+| [Tolino](https://play.google.com/store/apps/details?id=com.mytolino.app) | ? | ? |
+| [Too Good To Go](https://play.google.com/store/apps/details?id=com.app.tgtg) | ? | ? |
+| [Transfermarkt](https://play.google.com/store/apps/details?id=de.transfermarkt.v2) | ? | ? |
+| [Twitter](https://play.google.com/store/apps/details?id=com.twitter.android) | ? | ? |
+| [VR Matkalla](https://play.google.com/store/apps/details?id=fi.vr.mobile.app) | ? | ? |
+| [Wahl-O-Mat](https://play.google.com/store/apps/details?id=de.dreipc.wahlomat) | ? | ? |
+| Wallpapers | ❌ built-in | ? |
+| [WarnWetter](https://play.google.com/store/apps/details?id=de.dwd.warnapp) | ? | ? |
+| [Weser-Radweg](https://play.google.com/store/apps/details?id=de.alpstein.weserradweg) | ? | ? |
+| [WhatsApp](https://play.google.com/store/apps/details?id=com.whatsapp) | ? | ? |
+| Microsoft [Word](https://play.google.com/store/apps/details?id=com.microsoft.office.word) | ? | ? |
+| [YouTube](https://play.google.com/store/apps/details?id=com.google.android.youtube) | ? | ? |
