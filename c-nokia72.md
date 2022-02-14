@@ -46,6 +46,7 @@
 | [Messages](https://play.google.com/store/apps/details?id=com.google.android.apps.messaging) | ? | ? |
 | [Microsoft SwiftKey Keyboard](https://play.google.com/store/apps/details?id=com.touchtype.swiftkey) | ? | ? |
 | [My Device](https://play.google.com/store/apps/details?id=com.hmdglobal.support) | ? | ? |
+| [Netflix](https://play.google.com/store/apps/details?id=com.netflix.mediaclient) | ? | ? |
 | [NFC Tools](https://play.google.com/store/apps/details?id=com.wakdev.wdnfc) | ? | ? |
 | [NINA](https://play.google.com/store/apps/details?id=de.materna.bbk.mobile.app) | ? | ? |
 | Microsoft [OneDrive](https://play.google.com/store/apps/details?id=com.microsoft.skydrive) | ? | ? |
