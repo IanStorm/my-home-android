@@ -3,6 +3,7 @@
 | [Audio Recorder](https://play.google.com/store/apps/details?id=com.github.axet.audiorecorder) | [✔️ GitLab](https://gitlab.com/axet/android-audio-recorder) | ✔️ [Exodus](https://reports.exodus-privacy.eu.org/en/reports/com.github.axet.audiorecorder/latest/) |
 | [AusweisApp2](https://play.google.com/store/apps/details?id=com.governikus.ausweisapp2) | ? | ? |
 | [Automate](https://play.google.com/store/apps/details?id=com.llamalab.automate) | ? | ? |
+| [BahnBonus](https://play.google.com/store/apps/details?id=com.deutschebahn.bahnbonus) | ? | ? |
 | [Bing](https://play.google.com/store/apps/details?id=com.microsoft.bing) | ? | ? |
 | [Bitwarden](https://play.google.com/store/apps/details?id=com.x8bit.bitwarden) | [✔️ GitHub](https://github.com/bitwarden/mobile) | ? |
 | [BOB](https://play.google.com/store/apps/details?id=com.initka.android.bobapp) | ? | ? |
