@@ -10,7 +10,6 @@
 | [Booking.com](https://play.google.com/store/apps/details?id=com.booking) | ? | ? | / |
 | [Boxcryptor](https://play.google.com/store/apps/details?id=com.boxcryptor2.android) | ? | ? |
 | [Calculator](https://play.google.com/store/apps/details?id=com.google.android.calculator) | ❌ built-in | ? |
-| [Calcy IV](https://play.google.com/store/apps/details?id=tesmath.calcy) (for _Pokémon GO_) | ? | ? |
 | [Calendar](https://play.google.com/store/apps/details?id=com.google.android.calendar) | ❌ built-in | ? |
 | [Cambio](https://play.google.com/store/apps/details?id=de.cambio.app) | ? | ? |
 | [Camera](https://play.google.com/store/apps/details?id=com.hmdglobal.app.camera) | ❌ built-in | ? | ? |
@@ -59,7 +58,6 @@
 | [Phone](https://play.google.com/store/apps/details?id=com.google.android.dialer) | ? | ? |
 | Google [Photos](https://play.google.com/store/apps/details?id=com.google.android.apps.photos) | ? | ? |
 | Play Store | ❌ built-in | ? |
-| [Pokémon GO](https://play.google.com/store/apps/details?id=com.nianticlabs.pokemongo) | ? | ? |
 | [Post & DHL](https://play.google.com/store/apps/details?id=de.dhl.paket) | ? | ? |
 | [QR Scanner](https://play.google.com/store/apps/details?id=com.teacapps.barcodescanner) | ? | ? |
 | [Reddit](https://play.google.com/store/apps/details?id=com.reddit.frontpage) | ? | ? |
