@@ -1,6 +1,6 @@
 | App name | OSS? | Privacy? |
 |----------|------|----------|
-| [Audio Recorder](https://play.google.com/store/apps/details?id=com.github.axet.audiorecorder) | [✔️ GitLab](https://gitlab.com/axet/android-audio-recorder) | ✔️ [Exodus](https://reports.exodus-privacy.eu.org/en/reports/com.github.axet.audiorecorder/latest/) |
+| [Audio Recorder](https://play.google.com/store/apps/details?id=com.github.axet.audiorecorder) | [✔️ GitLab](https://gitlab.com/axet/android-audio-recorder) | [✔️ Exodus](https://reports.exodus-privacy.eu.org/en/reports/com.github.axet.audiorecorder/latest/) |
 | [AusweisApp2](https://play.google.com/store/apps/details?id=com.governikus.ausweisapp2) | ? | ? |
 | [Automate](https://play.google.com/store/apps/details?id=com.llamalab.automate) | ? | ? |
 | [BahnBonus](https://play.google.com/store/apps/details?id=com.deutschebahn.bahnbonus) | ? | ? |
@@ -52,6 +52,7 @@
 | Microsoft [OneDrive](https://play.google.com/store/apps/details?id=com.microsoft.skydrive) | ? | ? |
 | Microsoft [OneNote](https://play.google.com/store/apps/details?id=com.microsoft.office.onenote) | ? | ? |
 | [Oral-B](https://play.google.com/store/apps/details?id=com.pg.oralb.oralbapp) | ? | ? |
+| [Parcello](https://play.google.com/store/apps/details?id=org.parcello) | ? | [🔴 Exodus](https://reports.exodus-privacy.eu.org/en/reports/org.parcello/latest/) |
 | [Parsec](https://play.google.com/store/apps/details?id=tv.parsec.client) | ? | ? |
 | [PassAndroid](https://play.google.com/store/apps/details?id=org.ligi.passandroid) | [✔️ GitHub](https://github.com/ligi/PassAndroid) | ? |
 | [(e)PassGo](https://play.google.com/store/apps/details?id=de.passgo.passgo) | ? | ? |
