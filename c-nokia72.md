@@ -1,11 +1,11 @@
 | App name | OSS? | Privacy? |
 |----------|------|----------|
-| [Audio Recorder](https://play.google.com/store/apps/details?id=com.github.axet.audiorecorder) | [✔️ GitLab](https://gitlab.com/axet/android-audio-recorder) | [✔️ Exodus](https://reports.exodus-privacy.eu.org/en/reports/com.github.axet.audiorecorder/latest/) |
+| [Audio Recorder](https://play.google.com/store/apps/details?id=com.github.axet.audiorecorder) | [✅ GitLab](https://gitlab.com/axet/android-audio-recorder) | [✅ Exodus](https://reports.exodus-privacy.eu.org/en/reports/com.github.axet.audiorecorder/latest/) |
 | [AusweisApp2](https://play.google.com/store/apps/details?id=com.governikus.ausweisapp2) | ? | ? |
 | [Automate](https://play.google.com/store/apps/details?id=com.llamalab.automate) | ? | ? |
 | [BahnBonus](https://play.google.com/store/apps/details?id=com.deutschebahn.bahnbonus) | ? | ? |
 | [Bing](https://play.google.com/store/apps/details?id=com.microsoft.bing) | ? | ? |
-| [Bitwarden](https://play.google.com/store/apps/details?id=com.x8bit.bitwarden) | [✔️ GitHub](https://github.com/bitwarden/mobile) | ? |
+| [Bitwarden](https://play.google.com/store/apps/details?id=com.x8bit.bitwarden) | [✅ GitHub](https://github.com/bitwarden/mobile) | ? |
 | [BOB](https://play.google.com/store/apps/details?id=com.initka.android.bobapp) | ? | ? |
 | [Booking.com](https://play.google.com/store/apps/details?id=com.booking) | ? | ? | / |
 | [Boxcryptor](https://play.google.com/store/apps/details?id=com.boxcryptor2.android) | ? | ? |
@@ -15,7 +15,7 @@
 | [Camera](https://play.google.com/store/apps/details?id=com.hmdglobal.app.camera) | ❌ built-in | ? | ? |
 | [Clock](https://play.google.com/store/apps/details?id=com.google.android.deskclock) | ❌ built-in | ? | ? |
 | [Contacts](https://play.google.com/store/apps/details?id=com.google.android.contacts) | ❌ built-in | ? | ? |
-| [Corona-Warn-App](https://play.google.com/store/apps/details?id=de.rki.coronawarnapp) | [✔️ GitHub](https://github.com/corona-warn-app/cwa-app-android) | ? |
+| [Corona-Warn-App](https://play.google.com/store/apps/details?id=de.rki.coronawarnapp) | [✅ GitHub](https://github.com/corona-warn-app/cwa-app-android) | ? |
 | [DailyPic](https://play.google.com/store/apps/details?id=partl.dailypic) | ? | ? |
 | [DB Navigator](https://play.google.com/store/apps/details?id=de.hafas.android.db) | ? | ? |
 | [Dict.cc](https://play.google.com/store/apps/details?id=cc.dict.dictcc) | ? | ? |
@@ -23,7 +23,7 @@
 | [FahrPlaner](https://play.google.com/store/apps/details?id=de.hafas.android.vbn) | ? | ? |
 | [Feedly](https://play.google.com/store/apps/details?id=com.devhd.feedly) | ? | ? |
 | [Files](https://play.google.com/store/apps/details?id=com.google.android.apps.nbu.files) | ? | ? |
-| [Firefox](https://play.google.com/store/apps/details?id=org.mozilla.firefox) | [✔️ GitHub](https://github.com/mozilla-mobile/fenix) | ? |
+| [Firefox](https://play.google.com/store/apps/details?id=org.mozilla.firefox) | [✅ GitHub](https://github.com/mozilla-mobile/fenix) | ? |
 | [Fitbit](https://play.google.com/store/apps/details?id=com.fitbit.FitbitMobile) | ? | ? |
 | FM Radio | ? | ? |
 | [Fully Kiosk Browser](https://play.google.com/store/apps/details?id=de.ozerov.fully) | ? | ? |
@@ -54,7 +54,7 @@
 | [Oral-B](https://play.google.com/store/apps/details?id=com.pg.oralb.oralbapp) | ? | ? |
 | [Parcello](https://play.google.com/store/apps/details?id=org.parcello) | ? | [🔴 Exodus](https://reports.exodus-privacy.eu.org/en/reports/org.parcello/latest/) |
 | [Parsec](https://play.google.com/store/apps/details?id=tv.parsec.client) | ? | ? |
-| [PassAndroid](https://play.google.com/store/apps/details?id=org.ligi.passandroid) | [✔️ GitHub](https://github.com/ligi/PassAndroid) | ? |
+| [PassAndroid](https://play.google.com/store/apps/details?id=org.ligi.passandroid) | [✅ GitHub](https://github.com/ligi/PassAndroid) | ? |
 | [(e)PassGo](https://play.google.com/store/apps/details?id=de.passgo.passgo) | ? | ? |
 | [Phone](https://play.google.com/store/apps/details?id=com.google.android.dialer) | ? | ? |
 | Google [Photos](https://play.google.com/store/apps/details?id=com.google.android.apps.photos) | ? | ? |
@@ -64,8 +64,8 @@
 | [Reddit](https://play.google.com/store/apps/details?id=com.reddit.frontpage) | ? | ? |
 | [SafeVac](https://play.google.com/store/apps/details?id=de.pei.safevac) | ? | ? |
 | Settings | ❌ built-in | ? |
-| [Share To Clipboard](https://play.google.com/store/apps/details?id=com.tengu.sharetoclipboard) | [✔️ GitHub](https://github.com/tengusw/share_to_clipboard) | ? |
-| [Signal](https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms) | [✔️ GitHub](https://github.com/signalapp/Signal-Android) | ? |
+| [Share To Clipboard](https://play.google.com/store/apps/details?id=com.tengu.sharetoclipboard) | [✅ GitHub](https://github.com/tengusw/share_to_clipboard) | ? |
+| [Signal](https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms) | [✅ GitHub](https://github.com/signalapp/Signal-Android) | ? |
 | SIM Toolkit | ❌ built-in | ? |
 | [SJ](https://play.google.com/store/apps/details?id=se.sj.android) | ? | ? |
 | [Sportschau](https://play.google.com/store/apps/details?id=de.apptelligence.sportschau.android) | ? | ? |
@@ -75,7 +75,7 @@
 | [Swapfiets](https://play.google.com/store/apps/details?id=com.swapfiets) | ? | ? |
 | [Tagesschau](https://play.google.com/store/apps/details?id=de.tagesschau) | ? | ? |
 | [Tallink \| Silja](https://play.google.com/store/apps/details?id=com.tallink.mikiandroid) | ? | ? |
-| [Threema](https://play.google.com/store/apps/details?id=ch.threema.app) | [✔️ GitHub](https://github.com/threema-ch/threema-android) | ? |
+| [Threema](https://play.google.com/store/apps/details?id=ch.threema.app) | [✅ GitHub](https://github.com/threema-ch/threema-android) | ? |
 | [Tiltification](https://play.google.com/store/apps/details?id=de.uni_bremen.informatik.sonification_apps) | ? | ? |
 | Microsoft [To Do](https://play.google.com/store/apps/details?id=com.microsoft.todos) | ? | ? |
 | [Tolino](https://play.google.com/store/apps/details?id=com.mytolino.app) | ? | ? |
