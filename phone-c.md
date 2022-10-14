@@ -67,6 +67,7 @@
 | [Swapfiets](https://play.google.com/store/apps/details?id=com.swapfiets) | ? | ? |
 | [Tagesschau](https://play.google.com/store/apps/details?id=de.tagesschau) | ? | ? |
 | [Threema](https://play.google.com/store/apps/details?id=ch.threema.app) | [✅ GitHub](https://github.com/threema-ch/threema-android) | ? |
+| [Tile](https://play.google.com/store/apps/details?id=com.thetileapp.tile) | ❌ No | [🔴 Exodus](https://reports.exodus-privacy.eu.org/en/reports/com.thetileapp.tile/latest/) |
 | [Tiltification](https://play.google.com/store/apps/details?id=de.uni_bremen.informatik.sonification_apps) | ? | ? |
 | Microsoft [To Do](https://play.google.com/store/apps/details?id=com.microsoft.todos) | ? | ? |
 | [Too Good To Go](https://play.google.com/store/apps/details?id=com.app.tgtg) | ? | ? |
