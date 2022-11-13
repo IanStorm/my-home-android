@@ -31,6 +31,7 @@
 | [Fully Kiosk Browser](https://play.google.com/store/apps/details?id=de.ozerov.fully) | ? | ? |
 | [Gmail](https://play.google.com/store/apps/details?id=com.google.android.gm) | ? | ? |
 | [Google](https://play.google.com/store/apps/details?id=com.google.android.googlequicksearchbox) | ? | ? |
+| [Heavens-Above](https://play.google.com/store/apps/details?id=com.heavens_above.viewer) | ❌ No | [🟡 Exodus](https://reports.exodus-privacy.eu.org/en/reports/com.heavens_above.viewer/latest/) |
 | [ING Banking](https://play.google.com/store/apps/details?id=de.ingdiba.bankingapp) | ❌ No | ? |
 | [KATWARN](https://play.google.com/store/apps/details?id=de.combirisk.katwarn) | ? | ? |
 | [Kicker](https://play.google.com/store/apps/details?id=com.netbiscuits.kicker) | ? | ? |
