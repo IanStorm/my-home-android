@@ -10,7 +10,6 @@
 | [Bitwarden](https://play.google.com/store/apps/details?id=com.x8bit.bitwarden) | [✅ GitHub](https://github.com/bitwarden/mobile) | ? |
 | BSAG [BOB](https://play.google.com/store/apps/details?id=com.initka.android.bobapp) | ? | ? |
 | [Booking.com](https://play.google.com/store/apps/details?id=com.booking) | ? | ? | / |
-| [Boxcryptor](https://play.google.com/store/apps/details?id=com.boxcryptor2.android) | ? | ? |
 | [Calculator](https://play.google.com/store/apps/details?id=com.google.android.calculator)<br>built-in | ❌ No | ? |
 | [Calendar](https://play.google.com/store/apps/details?id=com.google.android.calendar)<br>built-in | ❌ No | ? |
 | [Cambio](https://play.google.com/store/apps/details?id=de.cambio.app) | ❌ No | ? |
@@ -19,6 +18,7 @@
 | [Contacts](https://play.google.com/store/apps/details?id=com.google.android.contacts)<br>built-in | ❌ No | ? | ? |
 | [Corona-Warn-App](https://play.google.com/store/apps/details?id=de.rki.coronawarnapp) | [✅ GitHub](https://github.com/corona-warn-app/cwa-app-android) | ? |
 | [Counter UX](https://play.google.com/store/apps/details?id=ru.uxapps.counter) | ? | ? |
+| [Cryptomator](https://play.google.com/store/apps/details?id=org.cryptomator) | [✅ GitHub](https://github.com/cryptomator/android) | ❌ 404 |
 | [DB Navigator](https://play.google.com/store/apps/details?id=de.hafas.android.db) | ❌ No | ? |
 | [Dict.cc](https://play.google.com/store/apps/details?id=cc.dict.dictcc) | ? | ? |
 | [Digital Wellbeing](https://play.google.com/store/apps/details?id=com.google.android.apps.wellbeing)<br>built-in | ❌ No | ? |
