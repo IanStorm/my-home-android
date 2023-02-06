@@ -1,78 +1,80 @@
-| App name | OSS? | Privacy? |
-|----------|------|----------|
-| [Microsoft SwiftKey Keyboard](https://play.google.com/store/apps/details?id=com.touchtype.swiftkey) | ? | ? |
-| [Square Home](https://play.google.com/store/apps/details?id=com.ss.squarehome2)<br>[Square Home Key](https://play.google.com/store/apps/details?id=com.ss.squarehome.key) | ? | ? |
-| --- | --- | --- |
-| [Audio Recorder](https://play.google.com/store/apps/details?id=com.github.axet.audiorecorder) | [✅ GitLab](https://gitlab.com/axet/android-audio-recorder) | [🟢 Exodus](https://reports.exodus-privacy.eu.org/en/reports/com.github.axet.audiorecorder/latest/) |
-| [AusweisApp2](https://play.google.com/store/apps/details?id=com.governikus.ausweisapp2) | ? | ? |
-| [BahnBonus](https://play.google.com/store/apps/details?id=com.deutschebahn.bahnbonus) | ? | ? |
-| [Bing](https://play.google.com/store/apps/details?id=com.microsoft.bing) | ? | ? |
-| [Bitwarden](https://play.google.com/store/apps/details?id=com.x8bit.bitwarden) | [✅ GitHub](https://github.com/bitwarden/mobile) | ? |
-| BSAG [BOB](https://play.google.com/store/apps/details?id=com.initka.android.bobapp) | ? | ? |
-| [Booking.com](https://play.google.com/store/apps/details?id=com.booking) | ? | ? | / |
-| [Calculator](https://play.google.com/store/apps/details?id=com.google.android.calculator)<br>built-in | ❌ No | ? |
-| [Calendar](https://play.google.com/store/apps/details?id=com.google.android.calendar)<br>built-in | ❌ No | ? |
-| [Cambio](https://play.google.com/store/apps/details?id=de.cambio.app) | ❌ No | ? |
-| [Camera](https://play.google.com/store/apps/details?id=com.hmdglobal.app.camera)<br>built-in | ❌ No | ? | ? |
-| [Clock](https://play.google.com/store/apps/details?id=com.google.android.deskclock)<br>built-in | ❌ No | ? | ? |
-| [Contacts](https://play.google.com/store/apps/details?id=com.google.android.contacts)<br>built-in | ❌ No | ? | ? |
-| [Corona-Warn-App](https://play.google.com/store/apps/details?id=de.rki.coronawarnapp) | [✅ GitHub](https://github.com/corona-warn-app/cwa-app-android) | ? |
-| [Counter UX](https://play.google.com/store/apps/details?id=ru.uxapps.counter) | ? | ? |
-| [Cryptomator](https://play.google.com/store/apps/details?id=org.cryptomator) | [✅ GitHub](https://github.com/cryptomator/android) | ❌ 404 |
-| [DB Navigator](https://play.google.com/store/apps/details?id=de.hafas.android.db) | ❌ No | ? |
-| [Dict.cc](https://play.google.com/store/apps/details?id=cc.dict.dictcc) | ? | ? |
-| [Digital Wellbeing](https://play.google.com/store/apps/details?id=com.google.android.apps.wellbeing)<br>built-in | ❌ No | ? |
-| [Exodus](https://play.google.com/store/apps/details?id=org.eu.exodus_privacy.exodusprivacy) | [✅ GitHub](https://github.com/Exodus-Privacy/exodus-android-app) | ? |
-| BSAG [FahrPlaner](https://play.google.com/store/apps/details?id=de.hafas.android.vbn) | ❌ No | ? |
-| [Feedly](https://play.google.com/store/apps/details?id=com.devhd.feedly) | ? | ? |
-| Files<br>built-in | ? | ? |
-| [Firefox](https://play.google.com/store/apps/details?id=org.mozilla.firefox) | [✅ GitHub](https://github.com/mozilla-mobile/fenix) | ? |
-| [Fitbit](https://play.google.com/store/apps/details?id=com.fitbit.FitbitMobile) | ❌ No | ? |
-| [Fully Kiosk Browser](https://play.google.com/store/apps/details?id=de.ozerov.fully) | ? | ? |
-| [Gmail](https://play.google.com/store/apps/details?id=com.google.android.gm) | ? | ? |
-| [Google](https://play.google.com/store/apps/details?id=com.google.android.googlequicksearchbox) | ? | ? |
-| [Heavens-Above](https://play.google.com/store/apps/details?id=com.heavens_above.viewer) | ❌ No | [🟡 Exodus](https://reports.exodus-privacy.eu.org/en/reports/com.heavens_above.viewer/latest/) |
-| [ING Banking](https://play.google.com/store/apps/details?id=de.ingdiba.bankingapp) | ❌ No | ? |
-| [KATWARN](https://play.google.com/store/apps/details?id=de.combirisk.katwarn) | ? | ? |
-| [Kicker](https://play.google.com/store/apps/details?id=com.netbiscuits.kicker) | ? | ? |
-| Microsoft Office [Lens](https://play.google.com/store/apps/details?id=com.microsoft.office.officelens) | ? | ? |
-| Google [Maps](https://play.google.com/store/apps/details?id=com.google.android.apps.maps) | ? | ? |
-| [Meine Pegel](https://play.google.com/store/apps/details?id=de.hochwasserzentralen.app) | ? | ? |
-| [MeinMagenta](https://play.google.com/store/apps/details?id=de.telekom.android.customercenter) | ? | ? |
-| [Messages](https://play.google.com/store/apps/details?id=com.google.android.apps.messaging) | ? | ? |
-| [My Fairphone](https://play.google.com/store/apps/details?id=com.fairphone.myfairphone)<br>built-in | ? | ? |
-| [Netflix](https://play.google.com/store/apps/details?id=com.netflix.mediaclient) | ❌ No | ? |
-| [NFC Tools](https://play.google.com/store/apps/details?id=com.wakdev.wdnfc) | ❌ No | ? |
-| [NINA](https://play.google.com/store/apps/details?id=de.materna.bbk.mobile.app) | ? | ? |
-| Microsoft [OneDrive](https://play.google.com/store/apps/details?id=com.microsoft.skydrive) | ❌ No | ? |
-| Microsoft Office [OneNote](https://play.google.com/store/apps/details?id=com.microsoft.office.onenote) | ❌ No | ? |
-| [Oral-B](https://play.google.com/store/apps/details?id=com.pg.oralb.oralbapp) | ❌ No | ? |
-| Microsoft Office [Outlook](https://play.google.com/store/apps/details?id=com.microsoft.office.outlook) | ❌ No | ? |
-| [Parcello](https://play.google.com/store/apps/details?id=org.parcello) | ? | [🔴 Exodus](https://reports.exodus-privacy.eu.org/en/reports/org.parcello/latest/) |
-| [Parsec](https://play.google.com/store/apps/details?id=tv.parsec.client) | ? | ? |
-| [PassAndroid](https://play.google.com/store/apps/details?id=org.ligi.passandroid) | [✅ GitHub](https://github.com/ligi/PassAndroid) | [🟢 Exodus](https://reports.exodus-privacy.eu.org/en/reports/org.ligi.passandroid/latest/) |
-| [Phone](https://play.google.com/store/apps/details?id=com.google.android.dialer)<br>built-in | ❌ No | ? |
-| Google [Photos](https://play.google.com/store/apps/details?id=com.google.android.apps.photos) | ❌ No | ? |
-| Play Store<br>built-in | ❌ No | ? |
-| [Post & DHL](https://play.google.com/store/apps/details?id=de.dhl.paket) | ❌ No | ? |
-| [QR Scanner](https://play.google.com/store/apps/details?id=com.teacapps.barcodescanner) | ? | [🟡 Exodus](https://reports.exodus-privacy.eu.org/en/reports/com.teacapps.barcodescanner/latest/) |
-| [Reddit](https://play.google.com/store/apps/details?id=com.reddit.frontpage) | ? | ? |
-| [SafeVac](https://play.google.com/store/apps/details?id=de.pei.safevac) | ? | ? |
-| Settings<br>built-in | ❌ No | ? |
-| [Share To Clipboard](https://play.google.com/store/apps/details?id=com.tengu.sharetoclipboard) | [✅ GitHub](https://github.com/tengusw/share_to_clipboard) | [🟢 Exodus](https://reports.exodus-privacy.eu.org/en/reports/com.tengu.sharetoclipboard/latest/) |
-| [Signal](https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms) | [✅ GitHub](https://github.com/signalapp/Signal-Android) | [🟢 Exodus](https://reports.exodus-privacy.eu.org/en/reports/org.thoughtcrime.securesms/latest/) |
-| SIM Toolkit<br>built-in | ? | ? |
-| [Sportschau](https://play.google.com/store/apps/details?id=de.apptelligence.sportschau.android) | ? | ? |
-| [Spotify](https://play.google.com/store/apps/details?id=com.spotify.music) | ❌ No | ? |
-| [SV Werder](https://play.google.com/store/apps/details?id=de.werder.werderbremen) | ? | ? |
-| [Swapfiets](https://play.google.com/store/apps/details?id=com.swapfiets) | ? | ? |
-| [Tagesschau](https://play.google.com/store/apps/details?id=de.tagesschau) | ? | ? |
-| [Threema](https://play.google.com/store/apps/details?id=ch.threema.app) | [✅ GitHub](https://github.com/threema-ch/threema-android) | ? |
-| [Tiltification](https://play.google.com/store/apps/details?id=de.uni_bremen.informatik.sonification_apps) | ? | ? |
-| Microsoft [To Do](https://play.google.com/store/apps/details?id=com.microsoft.todos) | ? | ? |
-| [Too Good To Go](https://play.google.com/store/apps/details?id=com.app.tgtg) | ? | ? |
-| [Transfermarkt](https://play.google.com/store/apps/details?id=de.transfermarkt.v2) | ❌ No | ? |
-| Google [Wallet](https://play.google.com/store/apps/details?id=com.google.android.apps.walletnfcrel) f.k.a. Google Pay | ? | ? |
-| [WarnWetter](https://play.google.com/store/apps/details?id=de.dwd.warnapp) | ? | ? |
-| [WhatsApp](https://play.google.com/store/apps/details?id=com.whatsapp) | ? | ? |
-| [YouTube](https://play.google.com/store/apps/details?id=com.google.android.youtube) | ? | ? |
+# Smartphone, C
+
+[⬅ Back](./README.md)
+
+1. [Microsoft SwiftKey Keyboard](./app-list.md#microsoft-swiftkey-keyboard)
+2. [Square Home](./app-list.md#square-home)
+---
+1. [Audio Recorder](./app-list.md#audio-recorder)
+2. [AusweisApp2](./app-list.md#ausweisapp2)
+2. [BahnBonus](./app-list.md#bahnbonus)
+2. [Bing](./app-list.md#bing)
+2. [Bitwarden](./app-list.md#bitwarden)
+2. [BOB](./app-list.md#bob)
+2. [Booking.com](./app-list.md#bookingcom)
+2. [Calculator](./app-list.md#calculator), built-in
+2. [Calendar](./app-list.md#calendar), built-in
+2. [Cambio](./app-list.md#cambio)
+2. [Camera](./app-list.md#camera), built-in
+2. [Clock](./app-list.md#clock), built-in
+2. [Contacts](./app-list.md#contacts), built-in
+2. [Corona-Warn-App](./app-list.md#corona-warn-app)
+2. [Counter UX](./app-list.md#counter-ux)
+2. [Cryptomator](./app-list.md#cryptomator)
+2. [DB Navigator](./app-list.md#db-navigator)
+2. [Dict.cc](./app-list.md#dictcc)
+2. [Digital Wellbeing](./app-list.md#digital-wellbeing), built-in
+2. [Exodus](./app-list.md#exodus)
+2. [FahrPlaner](./app-list.md#fahrplaner)
+2. [Feedly](./app-list.md#feedly)
+2. [Files](./app-list.md#files), built-in
+2. [Firefox](./app-list.md#firefox)
+2. [Fitbit](./app-list.md#fitbit)
+2. [Fully Kiosk Browser](./app-list.md#fully-kiosk-browser)
+2. [Gmail](./app-list.md#gmail)
+2. [Google](./app-list.md#google)
+2. [Heavens-Above](./app-list.md#heavens-above)
+2. [ING Banking](./app-list.md#ing-banking)
+2. [KATWARN](./app-list.md#katwarn)
+2. [Kicker](./app-list.md#kicker)
+2. [Lens](./app-list.md#lens)
+2. [Maps](./app-list.md#maps)
+2. [Meine Pegel](./app-list.md#meine-pegel)
+2. [MeinMagenta](./app-list.md#meinmagenta)
+2. [Messages](./app-list.md#messages)
+2. [My Fairphone](./app-list.md#my-fairphone), built-in
+2. [Netflix](./app-list.md#netflix)
+2. [NFC Tools](./app-list.md#nfc-tools)
+2. [NINA](./app-list.md#nina)
+2. [OneDrive](./app-list.md#onedrive)
+2. [OneNote](./app-list.md#onenote)
+2. [Oral-B](./app-list.md#oral-b)
+2. [Outlook](./app-list.md#outlook)
+2. [Parcello](./app-list.md#parcello)
+2. [Parsec](./app-list.md#parsec)
+2. [PassAndroid](./app-list.md#passandroid)
+2. [Phone](./app-list.md#phone), built-in
+2. [Photos](./app-list.md#photos)
+2. [Play Store](./app-list.md#play-store), built-in
+2. [Post & DHL](./app-list.md#post--dhl)
+2. [QR Scanner](./app-list.md#qr-scanner)
+2. [Reddit](./app-list.md#reddit)
+2. [SafeVac](./app-list.md#safevac)
+2. [Settings](./app-list.md#settings), built-in
+2. [Share To Clipboard](./app-list.md#share-to-clipboard)
+2. [Signal](./app-list.md#signal)
+2. [SIM Toolkit](./app-list.md#sim-toolkit), built-in
+2. [Sportschau](./app-list.md#sportschau)
+2. [Spotify](./app-list.md#spotify)
+2. [SV Werder](./app-list.md#sv-werder)
+2. [Swapfiets](./app-list.md#swapfiets)
+2. [Tagesschau](./app-list.md#tagesschau)
+2. [Threema](./app-list.md#threema)
+2. [Tiltification](./app-list.md#tiltification)
+2. [To Do](./app-list.md#to-do)
+2. [Too Good To Go](./app-list.md#too-good-to-go)
+2. [Transfermarkt](./app-list.md#transfermarkt)
+2. [Wallet](./app-list.md#wallet)
+2. [WarnWetter](./app-list.md#warnwetter)
+2. [WhatsApp](./app-list.md#whatsapp)
+2. [YouTube](./app-list.md#youtube)

@@ -27,10 +27,30 @@
 |:--|:-:|--:|
 | [AusweisApp2](https://play.google.com/store/apps/details?id=com.governikus.ausweisapp2) | [✅ GitHub](https://github.com/Governikus/AusweisApp2) | ❔ |
 
+## BahnBonus
+| <!-- --> | <!-- --> | <!-- --> |
+|:--|:-:|--:|
+| [BahnBonus](https://play.google.com/store/apps/details?id=com.deutschebahn.bahnbonus) | ❔ | ❔ |
+
+## Bing
+| <!-- --> | <!-- --> | <!-- --> |
+|:--|:-:|--:|
+| [Bing](https://play.google.com/store/apps/details?id=com.microsoft.bing) | ❔ | ❔ |
+
 ## Bitwarden
 | <!-- --> | <!-- --> | <!-- --> |
 |:--|:-:|--:|
 | [Bitwarden](https://play.google.com/store/apps/details?id=com.x8bit.bitwarden) | [✅ GitHub](https://github.com/bitwarden/mobile) | ❔ |
+
+## BOB
+| <!-- --> | <!-- --> | <!-- --> |
+|:--|:-:|--:|
+| BSAG [BOB](https://play.google.com/store/apps/details?id=com.initka.android.bobapp) | ❔ | ❔ |
+
+## Booking.com
+| <!-- --> | <!-- --> | <!-- --> |
+|:--|:-:|--:|
+| [Booking.com](https://play.google.com/store/apps/details?id=com.booking) | ❔ | ❔ |
 
 ## buten un binnen
 | <!-- --> | <!-- --> | <!-- --> |
@@ -77,6 +97,11 @@
 |:--|:-:|--:|
 | [Corona-Warn-App](https://play.google.com/store/apps/details?id=de.rki.coronawarnapp) | [✅ GitHub](https://github.com/corona-warn-app/cwa-app-android) | ❔ |
 
+## Counter UX
+| <!-- --> | <!-- --> | <!-- --> |
+|:--|:-:|--:|
+| [Counter UX](https://play.google.com/store/apps/details?id=ru.uxapps.counter) | ❔ | ❔ |
+
 ## Cryptomator
 | <!-- --> | <!-- --> | <!-- --> |
 |:--|:-:|--:|
@@ -86,6 +111,11 @@
 | <!-- --> | <!-- --> | <!-- --> |
 |:--|:-:|--:|
 | [DB Navigator](https://play.google.com/store/apps/details?id=de.hafas.android.db) | ❌ No | ❔ |
+
+## Dict.cc
+| <!-- --> | <!-- --> | <!-- --> |
+|:--|:-:|--:|
+| [Dict.cc](https://play.google.com/store/apps/details?id=cc.dict.dictcc) | ❔ | ❔ |
 
 ## Digital Wellbeing
 | <!-- --> | <!-- --> | <!-- --> |
@@ -102,15 +132,30 @@
 |:--|:-:|--:|
 | Microsoft [Excel](https://play.google.com/store/apps/details?id=com.microsoft.office.excel) | ❌ No | ❔ |
 
+## Exodus
+| <!-- --> | <!-- --> | <!-- --> |
+|:--|:-:|--:|
+| [Exodus](https://play.google.com/store/apps/details?id=org.eu.exodus_privacy.exodusprivacy) | [✅ GitHub](https://github.com/Exodus-Privacy/exodus-android-app) | ❔ |
+
 ## FahrPlaner
 | <!-- --> | <!-- --> | <!-- --> |
 |:--|:-:|--:|
 | BSAG [FahrPlaner](https://play.google.com/store/apps/details?id=de.hafas.android.vbn) | ❌ No | ❔ |
 
+## Feedly
+| <!-- --> | <!-- --> | <!-- --> |
+|:--|:-:|--:|
+| [Feedly](https://play.google.com/store/apps/details?id=com.devhd.feedly) | ❔ | ❔ |
+
 ## Files
 | <!-- --> | <!-- --> | <!-- --> |
 |:--|:-:|--:|
 | Files | ❔ | ❔ |
+
+## Firefox
+| <!-- --> | <!-- --> | <!-- --> |
+|:--|:-:|--:|
+| Mozilla [Firefox](https://play.google.com/store/apps/details?id=org.mozilla.firefox) | [✅ GitHub](https://github.com/mozilla-mobile/fenix) | ❔ |
 
 ## Fitbit
 | <!-- --> | <!-- --> | <!-- --> |
@@ -122,10 +167,30 @@
 |:--|:-:|--:|
 | [Flight Lite](https://play.google.com/store/apps/details?id=com.natewren.flightlite) | ❔ | ❔ |
 
+## Fully Kiosk Browser
+| <!-- --> | <!-- --> | <!-- --> |
+|:--|:-:|--:|
+| [Fully Kiosk Browser](https://play.google.com/store/apps/details?id=de.ozerov.fully) | ❔ | ❔ |
+
 ## Gardenscapes
 | <!-- --> | <!-- --> | <!-- --> |
 |:--|:-:|--:|
 | [Gardenscapes](https://play.google.com/store/apps/details?id=com.playrix.gardenscapes) | ❌ No | [🔴 Exodus](https://reports.exodus-privacy.eu.org/en/reports/com.playrix.gardenscapes/latest/) |
+
+## Gmail
+| <!-- --> | <!-- --> | <!-- --> |
+|:--|:-:|--:|
+| [Gmail](https://play.google.com/store/apps/details?id=com.google.android.gm) | ❔ | ❔ |
+
+## Google
+| <!-- --> | <!-- --> | <!-- --> |
+|:--|:-:|--:|
+| [Google](https://play.google.com/store/apps/details?id=com.google.android.googlequicksearchbox) | ❔ | ❔ |
+
+## Heavens-Above
+| <!-- --> | <!-- --> | <!-- --> |
+|:--|:-:|--:|
+| [Heavens-Above](https://play.google.com/store/apps/details?id=com.heavens_above.viewer) | ❌ No | [🟡 Exodus](https://reports.exodus-privacy.eu.org/en/reports/com.heavens_above.viewer/latest/) |
 
 ## Homescapes
 | <!-- --> | <!-- --> | <!-- --> |
@@ -147,6 +212,11 @@
 |:--|:-:|--:|
 | [KATWARN](https://play.google.com/store/apps/details?id=de.combirisk.katwarn) | ❔ | ❔ |
 
+## Kicker
+| <!-- --> | <!-- --> | <!-- --> |
+|:--|:-:|--:|
+| [Kicker](https://play.google.com/store/apps/details?id=com.netbiscuits.kicker) | ❔ | ❔ |
+
 ## Lens
 | <!-- --> | <!-- --> | <!-- --> |
 |:--|:-:|--:|
@@ -161,6 +231,11 @@
 | <!-- --> | <!-- --> | <!-- --> |
 |:--|:-:|--:|
 | Google [Maps](https://play.google.com/store/apps/details?id=com.google.android.apps.maps) | ❔ | ❔ |
+
+## Meine Pegel
+| <!-- --> | <!-- --> | <!-- --> |
+|:--|:-:|--:|
+| [Meine Pegel](https://play.google.com/store/apps/details?id=de.hochwasserzentralen.app) | ❔ | ❔ |
 
 ## MeinMagenta
 | <!-- --> | <!-- --> | <!-- --> |
@@ -187,6 +262,11 @@
 |:--|:-:|--:|
 | [Netflix](https://play.google.com/store/apps/details?id=com.netflix.mediaclient) | ❌ No | ❔ |
 
+## NFC Tools
+| <!-- --> | <!-- --> | <!-- --> |
+|:--|:-:|--:|
+| [NFC Tools](https://play.google.com/store/apps/details?id=com.wakdev.wdnfc) | ❌ No | ❔ |
+
 ## NINA
 | <!-- --> | <!-- --> | <!-- --> |
 |:--|:-:|--:|
@@ -211,6 +291,16 @@
 | <!-- --> | <!-- --> | <!-- --> |
 |:--|:-:|--:|
 | Microsoft Office [Outlook](https://play.google.com/store/apps/details?id=com.microsoft.office.outlook) | ❌ No | ❔ |
+
+## Parcello
+| <!-- --> | <!-- --> | <!-- --> |
+|:--|:-:|--:|
+| [Parcello](https://play.google.com/store/apps/details?id=org.parcello) | ❔ | [🔴 Exodus](https://reports.exodus-privacy.eu.org/en/reports/org.parcello/latest/) |
+
+## Parsec
+| <!-- --> | <!-- --> | <!-- --> |
+|:--|:-:|--:|
+| [Parsec](https://play.google.com/store/apps/details?id=tv.parsec.client) | ❔ | ❔ |
 
 ## PassAndroid
 | <!-- --> | <!-- --> | <!-- --> |
@@ -252,15 +342,30 @@
 |:--|:-:|--:|
 | [QR Scanner](https://play.google.com/store/apps/details?id=com.teacapps.barcodescanner) | ❔ | [🟡 Exodus](https://reports.exodus-privacy.eu.org/en/reports/com.teacapps.barcodescanner/latest/) |
 
+## Reddit
+| <!-- --> | <!-- --> | <!-- --> |
+|:--|:-:|--:|
+| [Reddit](https://play.google.com/store/apps/details?id=com.reddit.frontpage) | ❔ | ❔ |
+
 ## REWE
 | <!-- --> | <!-- --> | <!-- --> |
 |:--|:-:|--:|
 | [REWE](https://play.google.com/store/apps/details?id=de.rewe.app.mobile) | ❔ | ❔ |
 
+## SafeVac
+| <!-- --> | <!-- --> | <!-- --> |
+|:--|:-:|--:|
+| [SafeVac](https://play.google.com/store/apps/details?id=de.pei.safevac) | ❔ | ❔ |
+
 ## Settings
 | <!-- --> | <!-- --> | <!-- --> |
 |:--|:-:|--:|
 | Settings | ❌ No | ❔ |
+
+## Share To Clipboard
+| <!-- --> | <!-- --> | <!-- --> |
+|:--|:-:|--:|
+| [Share To Clipboard](https://play.google.com/store/apps/details?id=com.tengu.sharetoclipboard) | [✅ GitHub](https://github.com/tengusw/share_to_clipboard) | [🟢 Exodus](https://reports.exodus-privacy.eu.org/en/reports/com.tengu.sharetoclipboard/latest/) |
 
 ## Signal
 | <!-- --> | <!-- --> | <!-- --> |
@@ -311,6 +416,11 @@
 | <!-- --> | <!-- --> | <!-- --> |
 |:--|:-:|--:|
 | [Threema](https://play.google.com/store/apps/details?id=ch.threema.app) | [✅ GitHub](https://github.com/threema-ch/threema-android) | ❔ |
+
+## Tiltification
+| <!-- --> | <!-- --> | <!-- --> |
+|:--|:-:|--:|
+| [Tiltification](https://play.google.com/store/apps/details?id=de.uni_bremen.informatik.sonification_apps) | ❔ | ❔ |
 
 ## To Do
 | <!-- --> | <!-- --> | <!-- --> |
