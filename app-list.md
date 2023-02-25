@@ -1,5 +1,7 @@
 # App List
 
+[⬅ Back](./README.md)
+
 <style>
 	h2 {
 		font-size: 1px;
