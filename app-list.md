@@ -20,7 +20,7 @@
 ## Audio Recorder
 | <!-- --> | <!-- --> | <!-- --> |
 |:--|:-:|--:|
-| [Audio Recorder](https://play.google.com/store/apps/details?id=com.github.axet.audiorecorder) | [✅ GitLab](https://gitlab.com/axet/android-audio-recorder) | [🟢 Exodus](https://reports.exodus-privacy.eu.org/en/reports/com.github.axet.audiorecorder/latest/) |
+| [Audio Recorder](https://play.google.com/store/apps/details?id=com.github.axet.audiorecorder) | [✅ GitLab](https://gitlab.com/axet/android-audio-recorder) | [🟢 Exodus](https://reports.exodus-privacy.eu.org/en/reports/262975/) |
 
 ## AusweisApp2
 | <!-- --> | <!-- --> | <!-- --> |
@@ -55,7 +55,7 @@
 ## buten un binnen
 | <!-- --> | <!-- --> | <!-- --> |
 |:--|:-:|--:|
-| [buten un binnen](https://play.google.com/store/apps/details?id=de.butenunbinnen.app) | ❌ No | [🟡 Exodus](https://reports.exodus-privacy.eu.org/en/reports/de.butenunbinnen.app/latest/) |
+| [buten un binnen](https://play.google.com/store/apps/details?id=de.butenunbinnen.app) | ❌ No | [🟡 Exodus](https://reports.exodus-privacy.eu.org/en/reports/314445/) |
 
 ## Calculator
 | <!-- --> | <!-- --> | <!-- --> |
@@ -175,7 +175,7 @@
 ## Gardenscapes
 | <!-- --> | <!-- --> | <!-- --> |
 |:--|:-:|--:|
-| [Gardenscapes](https://play.google.com/store/apps/details?id=com.playrix.gardenscapes) | ❌ No | [🔴 Exodus](https://reports.exodus-privacy.eu.org/en/reports/com.playrix.gardenscapes/latest/) |
+| [Gardenscapes](https://play.google.com/store/apps/details?id=com.playrix.gardenscapes) | ❌ No | [🔴 Exodus](https://reports.exodus-privacy.eu.org/en/reports/317449/) |
 
 ## Gmail
 | <!-- --> | <!-- --> | <!-- --> |
@@ -190,12 +190,12 @@
 ## Heavens-Above
 | <!-- --> | <!-- --> | <!-- --> |
 |:--|:-:|--:|
-| [Heavens-Above](https://play.google.com/store/apps/details?id=com.heavens_above.viewer) | ❌ No | [🟡 Exodus](https://reports.exodus-privacy.eu.org/en/reports/com.heavens_above.viewer/latest/) |
+| [Heavens-Above](https://play.google.com/store/apps/details?id=com.heavens_above.viewer) | ❌ No | [🟡 Exodus](https://reports.exodus-privacy.eu.org/en/reports/261873/) |
 
 ## Homescapes
 | <!-- --> | <!-- --> | <!-- --> |
 |:--|:-:|--:|
-| [Homescapes](https://play.google.com/store/apps/details?id=com.playrix.homescapes) | ❌ No | [🔴 Exodus](https://reports.exodus-privacy.eu.org/en/reports/com.playrix.homescapes/latest/) |
+| [Homescapes](https://play.google.com/store/apps/details?id=com.playrix.homescapes) | ❌ No | [🔴 Exodus](https://reports.exodus-privacy.eu.org/en/reports/297618/) |
 
 ## ImmoScout24
 | <!-- --> | <!-- --> | <!-- --> |
@@ -205,7 +205,7 @@
 ## ING Banking
 | <!-- --> | <!-- --> | <!-- --> |
 |:--|:-:|--:|
-| [ING Banking](https://play.google.com/store/apps/details?id=de.ingdiba.bankingapp) | ❌ No | [🟡 Exodus](https://reports.exodus-privacy.eu.org/en/reports/de.ingdiba.bankingapp/latest/) |
+| [ING Banking](https://play.google.com/store/apps/details?id=de.ingdiba.bankingapp) | ❌ No | [🟡 Exodus](https://reports.exodus-privacy.eu.org/en/reports/318526/) |
 
 ## KATWARN
 | <!-- --> | <!-- --> | <!-- --> |
@@ -295,7 +295,7 @@
 ## Parcello
 | <!-- --> | <!-- --> | <!-- --> |
 |:--|:-:|--:|
-| [Parcello](https://play.google.com/store/apps/details?id=org.parcello) | ❔ | [🔴 Exodus](https://reports.exodus-privacy.eu.org/en/reports/org.parcello/latest/) |
+| [Parcello](https://play.google.com/store/apps/details?id=org.parcello) | ❔ | [🔴 Exodus](https://reports.exodus-privacy.eu.org/en/reports/245040/) |
 
 ## Parsec
 | <!-- --> | <!-- --> | <!-- --> |
@@ -305,7 +305,7 @@
 ## PassAndroid
 | <!-- --> | <!-- --> | <!-- --> |
 |:--|:-:|--:|
-| [PassAndroid](https://play.google.com/store/apps/details?id=org.ligi.passandroid) | [✅ GitHub](https://github.com/ligi/PassAndroid) | [🟢 Exodus](https://reports.exodus-privacy.eu.org/en/reports/org.ligi.passandroid/latest/) |
+| [PassAndroid](https://play.google.com/store/apps/details?id=org.ligi.passandroid) | [✅ GitHub](https://github.com/ligi/PassAndroid) | [🟡 Exodus](https://reports.exodus-privacy.eu.org/en/reports/42644/) |
 
 ## Phone
 | <!-- --> | <!-- --> | <!-- --> |
@@ -340,7 +340,7 @@
 ## QR Scanner
 | <!-- --> | <!-- --> | <!-- --> |
 |:--|:-:|--:|
-| [QR Scanner](https://play.google.com/store/apps/details?id=com.teacapps.barcodescanner) | ❔ | [🟡 Exodus](https://reports.exodus-privacy.eu.org/en/reports/com.teacapps.barcodescanner/latest/) |
+| [QR Scanner](https://play.google.com/store/apps/details?id=com.teacapps.barcodescanner) | ❔ | [🟡 Exodus](https://reports.exodus-privacy.eu.org/en/reports/335059/) |
 
 ## Reddit
 | <!-- --> | <!-- --> | <!-- --> |
@@ -365,12 +365,12 @@
 ## Share To Clipboard
 | <!-- --> | <!-- --> | <!-- --> |
 |:--|:-:|--:|
-| [Share To Clipboard](https://play.google.com/store/apps/details?id=com.tengu.sharetoclipboard) | [✅ GitHub](https://github.com/tengusw/share_to_clipboard) | [🟢 Exodus](https://reports.exodus-privacy.eu.org/en/reports/com.tengu.sharetoclipboard/latest/) |
+| [Share To Clipboard](https://play.google.com/store/apps/details?id=com.tengu.sharetoclipboard) | [✅ GitHub](https://github.com/tengusw/share_to_clipboard) | [🟢 Exodus](https://reports.exodus-privacy.eu.org/en/reports/270640/) |
 
 ## Signal
 | <!-- --> | <!-- --> | <!-- --> |
 |:--|:-:|--:|
-| [Signal](https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms) | [✅ GitHub](https://github.com/signalapp/Signal-Android) | [🟢 Exodus](https://reports.exodus-privacy.eu.org/en/reports/org.thoughtcrime.securesms/latest/) |
+| [Signal](https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms) | [✅ GitHub](https://github.com/signalapp/Signal-Android) | [🟢 Exodus](https://reports.exodus-privacy.eu.org/en/reports/334996/) |
 
 ## SIM Toolkit
 | <!-- --> | <!-- --> | <!-- --> |
@@ -415,7 +415,7 @@
 ## Threema
 | <!-- --> | <!-- --> | <!-- --> |
 |:--|:-:|--:|
-| [Threema](https://play.google.com/store/apps/details?id=ch.threema.app) | [✅ GitHub](https://github.com/threema-ch/threema-android) | ❔ |
+| [Threema](https://play.google.com/store/apps/details?id=ch.threema.app) | [✅ GitHub](https://github.com/threema-ch/threema-android) | ❌ 404 |
 
 ## Tiltification
 | <!-- --> | <!-- --> | <!-- --> |
