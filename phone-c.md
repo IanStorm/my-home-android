@@ -24,6 +24,7 @@
 2. [DB Navigator](./app-list.md#db-navigator)
 2. [Dict.cc](./app-list.md#dictcc)
 2. [Digital Wellbeing](./app-list.md#digital-wellbeing), built-in
+2. [Eurowings](./app-list.md#eurowings)
 2. [Exodus](./app-list.md#exodus)
 2. [FahrPlaner](./app-list.md#fahrplaner)
 2. [Feedly](./app-list.md#feedly)

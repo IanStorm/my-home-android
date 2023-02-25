@@ -127,6 +127,11 @@
 |:--|:-:|--:|
 | Microsoft [Edge](https://play.google.com/store/apps/details?id=com.microsoft.emmx) | ❔ | ❔ |
 
+## Eurowings
+| <!-- --> | <!-- --> | <!-- --> |
+|:--|:-:|--:|
+| [Eurowings](https://play.google.com/store/apps/details?id=com.germanwings.android) | ❌ No | [🟡 Exodus](https://reports.exodus-privacy.eu.org/en/reports/313132/) |
+
 ## Excel
 | <!-- --> | <!-- --> | <!-- --> |
 |:--|:-:|--:|

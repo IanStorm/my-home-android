@@ -18,6 +18,7 @@
 2. [Digital Wellbeing](./app-list.md#digital-wellbeing), built-in
 2. [Edge](./app-list.md#edge)
 2. [Einstellungen](./app-list.md#settings), built-in
+2. [Eurowings](./app-list.md#eurowings)
 2. [Excel](./app-list.md#excel)
 2. [FahrPlaner](./app-list.md#fahrplaner)
 2. [Fitbit](./app-list.md#fitbit)
