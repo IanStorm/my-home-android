@@ -107,7 +107,7 @@
 ## Cryptomator
 | <!-- --> | <!-- --> | <!-- --> |
 |:--|:-:|--:|
-| [Cryptomator](https://play.google.com/store/apps/details?id=org.cryptomator) | [✅ GitHub](https://github.com/cryptomator/android) | ❌ 404 |
+| [Cryptomator](https://play.google.com/store/apps/details?id=org.cryptomator) | [✅ GitHub](https://github.com/cryptomator/android) | ❌ 404 b/c 💵 |
 
 ## DB Navigator
 | <!-- --> | <!-- --> | <!-- --> |
@@ -432,7 +432,7 @@
 ## Threema
 | <!-- --> | <!-- --> | <!-- --> |
 |:--|:-:|--:|
-| [Threema](https://play.google.com/store/apps/details?id=ch.threema.app) | [✅ GitHub](https://github.com/threema-ch/threema-android) | ❌ 404 |
+| [Threema](https://play.google.com/store/apps/details?id=ch.threema.app) | [✅ GitHub](https://github.com/threema-ch/threema-android) | ❌ 404 b/c 💵 |
 
 ## Tiltification
 | <!-- --> | <!-- --> | <!-- --> |
