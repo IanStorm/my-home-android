@@ -124,6 +124,11 @@
 |:--|:-:|--:|
 | [Digital Wellbeing](https://play.google.com/store/apps/details?id=com.google.android.apps.wellbeing) | ❌ No | ❔ |
 
+## easyroam
+| <!-- --> | <!-- --> | <!-- --> |
+|:--|:-:|--:|
+| [easyroam](https://play.google.com/store/apps/details?id=de.dfn.easyroam) | ❌ No | ❌ 404 |
+
 ## Edge
 | <!-- --> | <!-- --> | <!-- --> |
 |:--|:-:|--:|
@@ -248,6 +253,11 @@
 | <!-- --> | <!-- --> | <!-- --> |
 |:--|:-:|--:|
 | [MeinMagenta](https://play.google.com/store/apps/details?id=de.telekom.android.customercenter) | ❔ | ❔ |
+
+## Mensa Bremen
+| <!-- --> | <!-- --> | <!-- --> |
+|:--|:-:|--:|
+| [Mensa Bremen](https://play.google.com/store/apps/details?id=de.mensaplan.app.android.bremen) | ❌ No | [🟡 Exodus](https://reports.exodus-privacy.eu.org/en/reports/337841/) |
 
 ## Messages
 | <!-- --> | <!-- --> | <!-- --> |

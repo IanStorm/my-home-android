@@ -16,6 +16,7 @@
 2. [Dateien](./app-list.md#files), built-in
 2. [DB Navigator](./app-list.md#db-navigator)
 2. [Digital Wellbeing](./app-list.md#digital-wellbeing), built-in
+2. [easyroam](./app-list.md#easyroam)
 2. [Edge](./app-list.md#edge)
 2. [Einstellungen](./app-list.md#settings), built-in
 2. [Eurowings](./app-list.md#eurowings)
@@ -35,6 +36,7 @@
 2. [Link zu Windows](./app-list.md#link-to-windows)
 2. [Maps](./app-list.md#maps)
 2. [MeinMagenta](./app-list.md#meinmagenta)
+2. [Mensa Bremen](./app-list.md#mensa-bremen)
 2. [Messages](./app-list.md#messages)
 2. [My Fairphone](./app-list.md#my-fairphone), built-in
 2. [Netflix](./app-list.md#netflix)
