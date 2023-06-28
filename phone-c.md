@@ -38,6 +38,7 @@
 2. [ING Banking](./app-list.md#ing-banking)
 2. [KATWARN](./app-list.md#katwarn)
 2. [Kicker](./app-list.md#kicker)
+2. [komoot](./app-list.md#komoot)
 2. [Lens](./app-list.md#lens)
 2. [Maps](./app-list.md#maps)
 2. [Meine Pegel](./app-list.md#meine-pegel)

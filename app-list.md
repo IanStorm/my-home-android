@@ -229,6 +229,11 @@
 |:--|:-:|--:|
 | [Kicker](https://play.google.com/store/apps/details?id=com.netbiscuits.kicker) | ❔ | ❔ |
 
+## Komoot
+| <!-- --> | <!-- --> | <!-- --> |
+|:--|:-:|--:|
+| [komoot](https://play.google.com/store/apps/details?id=de.komoot.android) | [❌ No, not the Android app](https://github.com/komoot) | [🔴 Exodus](https://reports.exodus-privacy.eu.org/en/reports/364717/) |
+
 ## Lens
 | <!-- --> | <!-- --> | <!-- --> |
 |:--|:-:|--:|
