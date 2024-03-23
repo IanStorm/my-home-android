@@ -1,0 +1,24 @@
+{
+	"$schema": "https://raw.githubusercontent.com/devcontainers/spec/main/schemas/devContainer.schema.json",
+
+	"image": "mcr.microsoft.com/devcontainers/typescript-node:20-bookworm",
+	"name": "Node.js 20 & TypeScript",
+
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"editorconfig.editorconfig",
+				"mutantdino.resourcemonitor",
+				"redhat.vscode-yaml",
+				"streetsidesoftware.code-spell-checker"
+			]
+		}
+	},
+	"features": {
+		"docker-in-docker": {
+			"version": "latest",
+			"moby": true
+		}
+	},
+	"remoteUser": "node"
+}

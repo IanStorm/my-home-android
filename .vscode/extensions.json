@@ -1,6 +1,5 @@
 {
 	"recommendations": [
-		"editorconfig.editorconfig",
-		"wayou.vscode-todo-highlight"
+		"ms-vscode-remote.remote-containers"
 	]
 }
