@@ -1,0 +1,20 @@
+{
+  "name": "@ianstorm/my-home-android",
+  "version": "0.0.0",
+  "description": "Non-public configuration for all Android devices in my home.",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IanStorm/my-home-android.git"
+  },
+  "author": {
+    "name": "Christian Sporer",
+    "url": "https://github.com/IanStorm"
+  },
+  "license": "UNLICENSED",
+  "homepage": "https://github.com/IanStorm/my-home-android#readme"
+}
