@@ -1,0 +1,13 @@
+{
+	"$schema": "https://json.schemastore.org/eslintrc.json",
+
+	"extends": "./etc/eslint/react/.eslintrc.json",
+	"env": {
+		"browser": true,
+		"node": false
+	},
+	"ignorePatterns": [
+		"dist/",
+		"vite.config.ts"
+	]
+}

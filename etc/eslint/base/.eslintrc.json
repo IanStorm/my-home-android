@@ -1,0 +1,106 @@
+/*
+ * 🛑 Think twice before editing this file! 🛑
+ * ⚠️ This file is maintained via https://github.com/IanStorm/dev-settings-sync. ⚠️
+ */
+{
+	"$schema": "https://json.schemastore.org/eslintrc.json",
+
+	"extends": [
+		"eslint:recommended",
+		"plugin:@typescript-eslint/recommended"
+	],
+	"parser": "@typescript-eslint/parser",
+	"parserOptions": {
+		"project": ["./tsconfig.json"]
+	},
+	"plugins": [
+		"@stylistic/js",
+		"@typescript-eslint",
+		"import",
+		"simple-import-sort"
+	],
+	"root": true,
+	"rules": {
+		"@typescript-eslint/array-type": [ "error", { "default": "generic" } ],
+
+		"@typescript-eslint/await-thenable": "warn",
+
+		"@stylistic/js/comma-dangle": [ "error", "always-multiline" ],
+
+		"@typescript-eslint/consistent-type-imports": [
+			"warn",
+			{ "prefer": "type-imports", "fixStyle": "separate-type-imports" }
+		],
+
+		"@stylistic/js/indent": [ "error", "tab" ],
+
+		"@stylistic/js/lines-between-class-members": [ "error", "always" ],
+
+		"max-depth": ["warn", { "max": 4 }],
+
+		"@stylistic/js/max-len": [ "error", {
+			"code": 120,
+			"ignoreComments": true
+		} ],
+
+		"@typescript-eslint/member-ordering": [
+			"error",
+			{
+				"default": {
+					"memberTypes": [ "constructor" ],
+					"order": "alphabetically"
+				}
+			}
+		],
+
+		"import/no-cycle": "warn",
+
+		"import/no-default-export": "error",
+
+		"no-dupe-keys": "warn",
+
+		"no-extra-boolean-cast": "warn",
+
+		"@stylistic/js/no-extra-semi": "error",
+
+		"@typescript-eslint/no-for-in-array": "warn",
+
+		"@stylistic/js/no-multiple-empty-lines": [ "error", { "max": 2 } ],
+
+		"@typescript-eslint/no-require-imports": "error",
+
+		"no-shadow": "off",
+		"@typescript-eslint/no-shadow": "error",
+
+		"@stylistic/js/no-trailing-spaces": "error",
+
+		"@typescript-eslint/no-unnecessary-condition": "warn",
+
+		"no-unused-expressions": "warn",
+
+		"@typescript-eslint/no-unused-vars": "error",
+
+		"no-var": "error",
+
+		"prefer-const": "error",
+
+		"@typescript-eslint/prefer-readonly": "error",
+
+		"@stylistic/js/quotes": ["error", "double", { "avoidEscape": true }],
+
+		"require-await": "off",
+		"@typescript-eslint/require-await": "warn",
+
+		"@stylistic/js/semi": [ "error", "always" ],
+
+		"@stylistic/js/semi-spacing": "error",
+
+		"simple-import-sort/exports": "error",
+		"simple-import-sort/imports": "error",
+
+		"sort-keys": "warn",
+
+		"unicode-bom": [ "error", "never" ]
+	},
+	"reportUnusedDisableDirectives": true
+}

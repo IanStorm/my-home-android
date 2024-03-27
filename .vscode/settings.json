@@ -1,6 +1,12 @@
 {
 	// ↓ vscode settings
 
+	"editor.codeActionsOnSave": {
+		"source.fixAll": "always",
+	},
+	"editor.defaultFormatter": "dbaeumer.vscode-eslint",
+	"editor.formatOnSave": true,
+
 	"editor.rulers": [
 		100,
 		120
