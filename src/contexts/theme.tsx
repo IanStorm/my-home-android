@@ -6,22 +6,26 @@ import {
 } from "@mui/material";
 import React from "react";
 
-interface ThemeStore {
+interface Theme {
 	readonly mode: PaletteMode
 	readonly toggleMode: () => void
 }
 
-const ThemeContext = React.createContext<ThemeStore | undefined>(undefined);
+interface ThemeStore {
+	readonly theme?: Theme
+}
+
+const ThemeContext = React.createContext<ThemeStore>({});
 
 export const useTheme = () => React.useContext(ThemeContext);
 
 export const ThemeProvider: React.FunctionComponent<React.PropsWithChildren> = ({ children }) => {
 	const prefersDarkMode = useMediaQuery("(prefers-color-scheme: dark)");
-	const [mode, setMode] = React.useState<ThemeStore["mode"]>(prefersDarkMode ? "dark" : "light");
+	const [mode, setMode] = React.useState<Theme["mode"]>(prefersDarkMode ? "dark" : "light");
 
 	const toggleMode = () => mode === "dark" ? setMode("light") : setMode("dark");
 
-	const theme = React.useMemo(
+	const muiTheme = React.useMemo(
 		() => createTheme({
 			palette: { mode },
 			typography: { allVariants: { userSelect: "none" } },
@@ -29,9 +33,11 @@ export const ThemeProvider: React.FunctionComponent<React.PropsWithChildren> = (
 		[mode]
 	);
 
+	const theme: Theme = { mode, toggleMode };
+
 	return (
-		<ThemeContext.Provider value={{mode, toggleMode}}>
-			<MUIThemeProvider theme={theme}>
+		<ThemeContext.Provider value={{ theme }}>
+			<MUIThemeProvider theme={muiTheme}>
 				{children}
 			</MUIThemeProvider>
 		</ThemeContext.Provider>

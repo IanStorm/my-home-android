@@ -1,6 +1,6 @@
 import {
-	Brightness2,
-	Brightness7,
+	DarkMode,
+	LightMode,
 } from "@mui/icons-material";
 import {
 	IconButton,
@@ -11,11 +11,11 @@ import React from "react";
 import { useTheme } from "../contexts";
 
 export const ThemeSwitch: React.FunctionComponent = () => {
-	const theme = useTheme();
+	const { theme } = useTheme();
 
 	if (theme) return (
 		<Tooltip
-			title={`Use ${theme.mode === "dark" ? "light" : "dark"} mode`}
+			title={`Switch to ${theme.mode === "dark" ? "light" : "dark"} mode`}
 		>
 			<IconButton
 				color="inherit"
@@ -24,8 +24,8 @@ export const ThemeSwitch: React.FunctionComponent = () => {
 			>
 				{
 					theme.mode === "dark"
-						? <Brightness2 fontSize="inherit" />
-						: <Brightness7 fontSize="inherit" />
+						? <DarkMode fontSize="inherit" />
+						: <LightMode fontSize="inherit" />
 				}
 			</IconButton>
 		</Tooltip>

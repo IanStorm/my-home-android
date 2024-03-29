@@ -1,5 +1,9 @@
-import { GitHub } from "@mui/icons-material";
 import {
+	GitHub,
+	OpenInNew,
+} from "@mui/icons-material";
+import {
+	Badge,
 	IconButton,
 	Tooltip,
 } from "@mui/material";
@@ -8,7 +12,7 @@ import React from "react";
 import { useMeta } from "../contexts";
 
 export const GitHubButton: React.FunctionComponent = () => {
-	const meta = useMeta();
+	const { meta } = useMeta();
 
 	if (meta) return (
 		<Tooltip
@@ -18,10 +22,17 @@ export const GitHubButton: React.FunctionComponent = () => {
 				color="inherit"
 				href={meta.githubURL.href}
 				size="medium"
+				target="_blank"
 			>
-				<GitHub
-					fontSize="inherit"
-				/>
+				<Badge
+					anchorOrigin={{ horizontal: "right", vertical: "top" }}
+					badgeContent={<OpenInNew fontSize="inherit" />}
+					color="default"
+				>
+					<GitHub
+						fontSize="inherit"
+					/>
+				</Badge>
 			</IconButton>
 		</Tooltip>
 	);
