@@ -1,4 +1,8 @@
-import { GitHub } from "@mui/icons-material";
+import {
+	Brightness2,
+	Brightness7,
+	GitHub,
+} from "@mui/icons-material";
 import {
 	AppBar,
 	Box,
@@ -9,7 +13,11 @@ import {
 } from "@mui/material";
 import React from "react";
 
+import { useTheme } from "./contexts";
+
 export const App: React.FunctionComponent = () => {
+	const theme = useTheme();
+
 	return (
 		<React.Fragment>
 			<AppBar
@@ -23,6 +31,19 @@ export const App: React.FunctionComponent = () => {
 					>
 					My Home - Android
 					</Typography>
+
+					{theme ? (
+						<Tooltip
+							title={`Use ${theme.mode === "dark" ? "light" : "dark"} mode`}
+						>
+							<IconButton
+								color="inherit"
+								onClick={theme.toggleMode}
+							>
+								{theme.mode === "dark" ? <Brightness2 /> : <Brightness7 />}
+							</IconButton>
+						</Tooltip>
+					): <></>}
 
 					<Tooltip
 						title="Go to GitHub repository"
