@@ -9,7 +9,7 @@ import {
 } from "@mui/material";
 import React from "react";
 
-import { useMeta } from "../contexts";
+import { useMeta } from "../../contexts";
 
 export const GitHubButton: React.FunctionComponent = () => {
 	const { meta } = useMeta();

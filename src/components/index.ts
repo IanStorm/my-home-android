@@ -1,3 +1,2 @@
-export {} from "./GitHubButton";
-export { Header } from "./Header";
-export {} from "./ThemeSwitch";
+export {} from "./Header";
+export { Layout } from "./Layout";

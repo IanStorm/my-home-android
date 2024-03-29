@@ -1,9 +1,10 @@
 import { Box } from "@mui/material";
 import React from "react";
+import { Outlet } from "react-router-dom";
 
-import { Header } from "./components";
+import { Header } from "./Header";
 
-export const App: React.FunctionComponent = () => {
+export const Layout: React.FunctionComponent = () => {
 	return (
 		<React.Fragment>
 			<Header />
@@ -12,7 +13,7 @@ export const App: React.FunctionComponent = () => {
 				component="main"
 				p={4}
 			>
-				Welcome
+				<Outlet />
 			</Box>
 		</React.Fragment>
 	);

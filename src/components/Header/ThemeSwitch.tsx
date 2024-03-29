@@ -8,7 +8,7 @@ import {
 } from "@mui/material";
 import React from "react";
 
-import { useTheme } from "../contexts";
+import { useTheme } from "../../contexts";
 
 export const ThemeSwitch: React.FunctionComponent = () => {
 	const { theme } = useTheme();
