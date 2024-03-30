@@ -1,13 +1,13 @@
-import type {
-	SxProps} from "@mui/material";
+import type { SxProps } from "@mui/material";
 import {
 	Box,
 	Typography,
 } from "@mui/material";
+import type { FunctionComponent } from "react";
 
 import { useMeta } from "../../contexts";
 
-export const Title: React.FunctionComponent = () => {
+export const Title: FunctionComponent = () => {
 	const { meta } = useMeta();
 
 	const sx: SxProps = { flexGrow: 1 };

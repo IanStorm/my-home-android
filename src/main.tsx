@@ -6,17 +6,17 @@ import {
 	RouterProvider,
 } from "react-router-dom";
 
-import { Layout } from "./components";
+import { Layout } from "./ui/components";
 import {
 	AppsProvider,
 	DevicesProvider,
 	MetaProvider,
 	ThemeProvider,
-} from "./contexts";
-import { Root } from "./routes";
-import { Apps } from "./routes/apps";
-import { Devices } from "./routes/devices";
-import type { Path } from "./utils/routes";
+} from "./ui/contexts";
+import { Root } from "./ui/routes";
+import { Apps } from "./ui/routes/apps";
+import { Devices } from "./ui/routes/devices";
+import type { Path } from "./ui/utils/routes";
 
 const router = createBrowserRouter([{ children: [
 	{ element: <Apps />, path: "/apps" satisfies Path },

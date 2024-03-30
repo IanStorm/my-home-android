@@ -8,12 +8,12 @@ import {
 } from "@mui/material";
 import type { FunctionComponent } from "react";
 
-import type { App } from "../../../contexts";
+import type { App } from "../../contexts";
 import {
-	GitHub,
-	OpenExternal,
-	OSSActive,
-	OSSInactive,
+	GitHubIcon,
+	OpenExternalIcon,
+	OSSActiveIcon,
+	OSSInactiveIcon,
 } from "../../icons";
 import { Tooltip } from "../Tooltip";
 
@@ -30,7 +30,7 @@ export const OSSSummary: FunctionComponent<Props> = ({ isOSS }) => {
 		color = "error";
 		title = "Is closed source";
 	} else if (typeof isOSS === "object") {
-		BadgeContent = isOSS.host === "GitHub" ? GitHub : OpenExternal;
+		BadgeContent = isOSS.host === "GitHub" ? GitHubIcon : OpenExternalIcon;
 		color = "success";
 		title = `Open source code on ${isOSS.host}`;
 	} else { isOSS satisfies undefined;
@@ -63,8 +63,8 @@ export const OSSSummary: FunctionComponent<Props> = ({ isOSS }) => {
 							: undefined}
 					>
 						{isOSS === false
-							? <OSSInactive color={color} />
-							: <OSSActive color={color} />}
+							? <OSSInactiveIcon color={color} />
+							: <OSSActiveIcon color={color} />}
 					</Badge>
 				</IconButton>
 			</span>

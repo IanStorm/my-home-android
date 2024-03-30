@@ -1,15 +1,15 @@
 import {
-	GitHub,
-	OpenInNew,
-} from "@mui/icons-material";
-import {
 	Badge,
 	IconButton,
 } from "@mui/material";
 import type { FunctionComponent } from "react";
 
+import { Tooltip } from "../../components";
 import { useMeta } from "../../contexts";
-import { Tooltip } from "../../ui/components";
+import {
+	GitHubIcon,
+	OpenExternalIcon,
+} from "../../icons";
 
 export const GitHubButton: FunctionComponent = () => {
 	const { meta } = useMeta();
@@ -27,10 +27,10 @@ export const GitHubButton: FunctionComponent = () => {
 			>
 				<Badge
 					anchorOrigin={{ horizontal: "right", vertical: "top" }}
-					badgeContent={<OpenInNew fontSize="inherit" />}
+					badgeContent={<OpenExternalIcon fontSize="inherit" />}
 					color="default"
 				>
-					<GitHub
+					<GitHubIcon
 						fontSize="inherit"
 					/>
 				</Badge>

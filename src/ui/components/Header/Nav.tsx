@@ -1,9 +1,4 @@
 import {
-	Apps,
-	SentimentVeryDissatisfiedOutlined,
-	Smartphone,
-} from "@mui/icons-material";
-import {
 	Box,
 	Divider,
 	List,
@@ -19,6 +14,11 @@ import {
 	useApps,
 	useDevices,
 } from "../../contexts";
+import {
+	AppsIcon,
+	DevicesIcon,
+	SadSmileyIcon,
+} from "../../icons";
 import type { Path } from "../../utils/routes";
 import { Title } from "./Title";
 
@@ -52,7 +52,7 @@ export const Nav: FunctionComponent<Props> = ({
 					to={"/apps" satisfies Path}
 				>
 					<ListItemIcon>
-						{apps ? <Apps /> : <SentimentVeryDissatisfiedOutlined /> }
+						{apps ? <AppsIcon /> : <SadSmileyIcon /> }
 					</ListItemIcon>
 					<ListItemText
 						primary="Apps"
@@ -72,7 +72,7 @@ export const Nav: FunctionComponent<Props> = ({
 					to={"/devices" satisfies Path}
 				>
 					<ListItemIcon>
-						{devices ? <Smartphone /> : <SentimentVeryDissatisfiedOutlined /> }
+						{devices ? <DevicesIcon /> : <SadSmileyIcon /> }
 					</ListItemIcon>
 					<ListItemText
 						primary="Devices"

@@ -1,4 +1,3 @@
-import { ExpandMore } from "@mui/icons-material";
 import type { SxProps } from "@mui/material";
 import {
 	Accordion,
@@ -11,7 +10,8 @@ import {
 import type { FunctionComponent } from "react";
 import { useState } from "react";
 
-import type { App as UIApp } from "../../../contexts";
+import type { App as UIApp } from "../../contexts";
+import { ExpandIcon } from "../../icons";
 import { OSSDetails } from "./OSSDetails";
 import { OSSSummary } from "./OSSSummary";
 
@@ -48,7 +48,7 @@ export const App: FunctionComponent<Props> = ({ app }) => {
 			<AccordionSummary
 				expandIcon={(
 					<IconButton onClick={toggleIsExpanded}>
-						<ExpandMore />
+						<ExpandIcon />
 					</IconButton>
 				)}
 			>

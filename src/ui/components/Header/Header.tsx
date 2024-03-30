@@ -1,4 +1,3 @@
-import { Menu } from "@mui/icons-material";
 import {
 	AppBar,
 	Drawer,
@@ -8,6 +7,7 @@ import {
 import type { FunctionComponent } from "react";
 import { useState } from "react";
 
+import { MenuIcon } from "../../icons";
 import { GitHubButton } from "./GitHubButton";
 import { Nav } from "./Nav";
 import { ThemeSwitch } from "./ThemeSwitch";
@@ -31,7 +31,7 @@ export const Header: FunctionComponent = () => {
 						onClick={toggleDrawer}
 						sx={{ mr: 2 }}
 					>
-						<Menu fontSize="inherit" />
+						<MenuIcon fontSize="inherit" />
 					</IconButton>
 
 					<Title />

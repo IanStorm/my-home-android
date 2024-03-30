@@ -5,7 +5,7 @@ import {
 } from "@mui/material";
 import type { FunctionComponent } from "react";
 
-import type { App } from "../../../contexts";
+import type { App } from "../../contexts";
 
 interface Props {
 	readonly isOSS: App["isOSS"]

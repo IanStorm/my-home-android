@@ -3,8 +3,8 @@ import type { FunctionComponent} from "react";
 import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 
+import { App } from "../components";
 import { useApps } from "../contexts";
-import { App } from "../ui/components";
 import type { Path } from "../utils/routes";
 
 export const Apps: FunctionComponent = () => {

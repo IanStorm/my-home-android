@@ -1,12 +1,12 @@
-import {
-	DarkMode,
-	LightMode,
-} from "@mui/icons-material";
 import { IconButton } from "@mui/material";
 import type { FunctionComponent } from "react";
 
+import { Tooltip } from "../../components";
 import { useTheme } from "../../contexts";
-import { Tooltip } from "../../ui/components";
+import {
+	DarkModeIcon,
+	LightModeIcon,
+} from "../../icons";
 
 export const ThemeSwitch: FunctionComponent = () => {
 	const { theme } = useTheme();
@@ -23,8 +23,8 @@ export const ThemeSwitch: FunctionComponent = () => {
 			>
 				{
 					theme.mode === "dark"
-						? <DarkMode fontSize="inherit" />
-						: <LightMode fontSize="inherit" />
+						? <DarkModeIcon />
+						: <LightModeIcon />
 				}
 			</IconButton>
 		</Tooltip>

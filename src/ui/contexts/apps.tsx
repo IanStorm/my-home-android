@@ -7,8 +7,8 @@ import {
 	useContext,
 } from "react";
 
-import * as data from "../data/db";
-import type * as model from "../data/model";
+import * as data from "../../data/db";
+import type * as model from "../../data/model";
 
 type OSS =
 	| false
