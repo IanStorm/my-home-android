@@ -1,3 +1,4 @@
+export type { App } from "./apps";
 export { AppsProvider, useApps } from "./apps";
 export { DevicesProvider, useDevices } from "./devices";
 export { MetaProvider, useMeta } from "./meta";
