@@ -1,4 +1,11 @@
-import React from "react";
+import type {
+	FunctionComponent,
+	PropsWithChildren,
+} from "react";
+import {
+	createContext,
+	useContext,
+} from "react";
 
 interface Meta {
 	readonly displayName: string
@@ -9,11 +16,11 @@ interface MetaStore {
 	readonly meta?: Meta
 }
 
-const MetaContext = React.createContext<MetaStore>({});
+const MetaContext = createContext<MetaStore>({});
 
-export const useMeta = () => React.useContext(MetaContext);
+export const useMeta = () => useContext(MetaContext);
 
-export const MetaProvider: React.FunctionComponent<React.PropsWithChildren> = ({ children }) => {
+export const MetaProvider: FunctionComponent<PropsWithChildren> = ({ children }) => {
 	const meta: Meta = {
 		displayName: "My Home - Android",
 		githubURL: new URL("https://github.com/IanStorm/my-home-android"),

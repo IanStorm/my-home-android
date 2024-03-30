@@ -5,16 +5,17 @@ import {
 import {
 	Badge,
 	IconButton,
-	Tooltip,
 } from "@mui/material";
-import React from "react";
+import type { FunctionComponent } from "react";
 
 import { useMeta } from "../../contexts";
+import { Tooltip } from "../../ui/components";
 
-export const GitHubButton: React.FunctionComponent = () => {
+export const GitHubButton: FunctionComponent = () => {
 	const { meta } = useMeta();
 
-	if (meta) return (
+	if (!meta) return <></>;
+	else return (
 		<Tooltip
 			title="Go to GitHub repository"
 		>
@@ -36,5 +37,4 @@ export const GitHubButton: React.FunctionComponent = () => {
 			</IconButton>
 		</Tooltip>
 	);
-	else return <></>;
 };

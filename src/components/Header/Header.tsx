@@ -5,19 +5,20 @@ import {
 	IconButton,
 	Toolbar,
 } from "@mui/material";
-import React from "react";
+import type { FunctionComponent } from "react";
+import { useState } from "react";
 
 import { GitHubButton } from "./GitHubButton";
 import { Nav } from "./Nav";
 import { ThemeSwitch } from "./ThemeSwitch";
 import { Title } from "./Title";
 
-export const Header: React.FunctionComponent = () => {
-	const [isDrawerOpen, setIsDrawerOpen] = React.useState<boolean>(false);
+export const Header: FunctionComponent = () => {
+	const [isDrawerOpen, setIsDrawerOpen] = useState<boolean>(false);
 	const toggleDrawer = () => setIsDrawerOpen(!isDrawerOpen);
 
 	return (
-		<React.Fragment>
+		<>
 			<AppBar
 				component="header"
 				position="sticky"
@@ -46,6 +47,6 @@ export const Header: React.FunctionComponent = () => {
 			>
 				<Nav onNavigate={() => setIsDrawerOpen(false)} />
 			</Drawer>
-		</React.Fragment>
+		</>
 	);
 };

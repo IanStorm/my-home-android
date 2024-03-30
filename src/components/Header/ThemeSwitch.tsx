@@ -2,18 +2,17 @@ import {
 	DarkMode,
 	LightMode,
 } from "@mui/icons-material";
-import {
-	IconButton,
-	Tooltip,
-} from "@mui/material";
-import React from "react";
+import { IconButton } from "@mui/material";
+import type { FunctionComponent } from "react";
 
 import { useTheme } from "../../contexts";
+import { Tooltip } from "../../ui/components";
 
-export const ThemeSwitch: React.FunctionComponent = () => {
+export const ThemeSwitch: FunctionComponent = () => {
 	const { theme } = useTheme();
 
-	if (theme) return (
+	if (!theme) return <></>;
+	else return (
 		<Tooltip
 			title={`Switch to ${theme.mode === "dark" ? "light" : "dark"} mode`}
 		>
@@ -30,5 +29,4 @@ export const ThemeSwitch: React.FunctionComponent = () => {
 			</IconButton>
 		</Tooltip>
 	);
-	else return <></>;
 };

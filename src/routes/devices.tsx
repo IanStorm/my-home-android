@@ -1,10 +1,11 @@
+import type { FunctionComponent} from "react";
 import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 
 import { useDevices } from "../contexts";
 import type { Path } from "../utils/routes";
 
-export const Devices: React.FunctionComponent = () => {
+export const Devices: FunctionComponent = () => {
 	const { devices } = useDevices();
 	const navigate = useNavigate();
 

@@ -1,6 +1,6 @@
 import { CssBaseline } from "@mui/material";
-import React from "react";
-import ReactDOM from "react-dom/client";
+import { StrictMode } from "react";
+import { createRoot } from "react-dom/client";
 import {
 	createBrowserRouter,
 	RouterProvider,
@@ -24,8 +24,8 @@ const router = createBrowserRouter([{ children: [
 	{ element: <Root />, path: "*" },
 ], element: <Layout /> }]);
 
-ReactDOM.createRoot(document.getElementById("root")!).render(
-	<React.StrictMode>
+createRoot(document.getElementById("root")!).render(
+	<StrictMode>
 		<MetaProvider>
 			<AppsProvider>
 				<DevicesProvider>
@@ -36,5 +36,5 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
 				</DevicesProvider>
 			</AppsProvider>
 		</MetaProvider>
-	</React.StrictMode>,
+	</StrictMode>,
 );

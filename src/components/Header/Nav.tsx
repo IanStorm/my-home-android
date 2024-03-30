@@ -12,7 +12,7 @@ import {
 	ListItemIcon,
 	ListItemText,
 } from "@mui/material";
-import React from "react";
+import type { FunctionComponent } from "react";
 import { Link } from "react-router-dom";
 
 import {
@@ -22,11 +22,11 @@ import {
 import type { Path } from "../../utils/routes";
 import { Title } from "./Title";
 
-interface NavProps {
+interface Props {
 	readonly onNavigate?: () => void
 }
 
-export const Nav: React.FunctionComponent<NavProps> = ({
+export const Nav: FunctionComponent<Props> = ({
 	onNavigate = () => { /* no-op */ },
 }) => {
 	const { apps } = useApps();
@@ -46,9 +46,10 @@ export const Nav: React.FunctionComponent<NavProps> = ({
 
 			<ListItem disablePadding>
 				<ListItemButton
-					component={Link} to={"/apps" satisfies Path}
+					component={Link}
 					disabled={apps === undefined}
 					onClick={onNavigate}
+					to={"/apps" satisfies Path}
 				>
 					<ListItemIcon>
 						{apps ? <Apps /> : <SentimentVeryDissatisfiedOutlined /> }
@@ -65,9 +66,10 @@ export const Nav: React.FunctionComponent<NavProps> = ({
 
 			<ListItem disablePadding>
 				<ListItemButton
-					component={Link} to={"/devices" satisfies Path}
+					component={Link}
 					disabled={devices === undefined}
 					onClick={onNavigate}
+					to={"/devices" satisfies Path}
 				>
 					<ListItemIcon>
 						{devices ? <Smartphone /> : <SentimentVeryDissatisfiedOutlined /> }

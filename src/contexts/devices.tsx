@@ -1,4 +1,11 @@
-import React from "react";
+import type {
+	FunctionComponent,
+	PropsWithChildren,
+} from "react";
+import {
+	createContext,
+	useContext,
+} from "react";
 
 interface Device {
 	// TODO:
@@ -8,11 +15,11 @@ interface DevicesStore {
 	readonly devices?: ReadonlyArray<Device>
 }
 
-const DevicesContext = React.createContext<DevicesStore>({});
+const DevicesContext = createContext<DevicesStore>({});
 
-export const useDevices = () => React.useContext(DevicesContext);
+export const useDevices = () => useContext(DevicesContext);
 
-export const DevicesProvider: React.FunctionComponent<React.PropsWithChildren> = ({ children }) => {
+export const DevicesProvider: FunctionComponent<PropsWithChildren> = ({ children }) => {
 	const devices: DevicesStore["devices"] = [];
 
 	return (

@@ -4,7 +4,16 @@ import {
 	ThemeProvider as MUIThemeProvider,
 	useMediaQuery,
 } from "@mui/material";
-import React from "react";
+import type {
+	FunctionComponent,
+	PropsWithChildren,
+} from "react";
+import {
+	createContext,
+	useContext,
+	useMemo,
+	useState,
+} from "react";
 
 interface Theme {
 	readonly mode: PaletteMode
@@ -15,17 +24,17 @@ interface ThemeStore {
 	readonly theme?: Theme
 }
 
-const ThemeContext = React.createContext<ThemeStore>({});
+const ThemeContext = createContext<ThemeStore>({});
 
-export const useTheme = () => React.useContext(ThemeContext);
+export const useTheme = () => useContext(ThemeContext);
 
-export const ThemeProvider: React.FunctionComponent<React.PropsWithChildren> = ({ children }) => {
+export const ThemeProvider: FunctionComponent<PropsWithChildren> = ({ children }) => {
 	const prefersDarkMode = useMediaQuery("(prefers-color-scheme: dark)");
-	const [mode, setMode] = React.useState<Theme["mode"]>(prefersDarkMode ? "dark" : "light");
+	const [mode, setMode] = useState<Theme["mode"]>(prefersDarkMode ? "dark" : "light");
 
 	const toggleMode = () => mode === "dark" ? setMode("light") : setMode("dark");
 
-	const muiTheme = React.useMemo(
+	const muiTheme = useMemo(
 		() => createTheme({
 			palette: { mode },
 			typography: { allVariants: { userSelect: "none" } },

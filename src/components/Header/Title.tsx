@@ -12,15 +12,13 @@ export const Title: React.FunctionComponent = () => {
 
 	const sx: SxProps = { flexGrow: 1 };
 
-	if (meta) return (
+	if (!meta) return <Box sx={sx} />;
+	else return (
 		<Typography
 			sx={sx}
 			variant="h6"
 		>
 			{meta.displayName}
 		</Typography>
-	);
-	else return (
-		<Box sx={sx} />
 	);
 };
