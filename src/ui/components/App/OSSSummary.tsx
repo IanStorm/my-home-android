@@ -47,7 +47,10 @@ export const OSSSummary: FunctionComponent<Props> = ({ isOSS }) => {
 	;
 
 	return (
-		<Tooltip title={title}>
+		<Tooltip
+			offsetY={-8}
+			title={title}
+		>
 			<span> { /* 👈 🔗 https://mui.com/material-ui/react-tooltip/#disabled-elements */ }
 				<IconButton
 					color="inherit"

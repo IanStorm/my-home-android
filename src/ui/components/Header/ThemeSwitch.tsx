@@ -14,6 +14,7 @@ export const ThemeSwitch: FunctionComponent = () => {
 	if (!theme) return <></>;
 	else return (
 		<Tooltip
+			offsetY={-8}
 			title={`Switch to ${theme.mode === "dark" ? "light" : "dark"} mode`}
 		>
 			<IconButton

@@ -17,6 +17,7 @@ export const GitHubButton: FunctionComponent = () => {
 	if (!meta) return <></>;
 	else return (
 		<Tooltip
+			offsetY={-8}
 			title="Go to GitHub repository"
 		>
 			<IconButton
