@@ -18,11 +18,20 @@ import { Apps } from "./ui/routes/apps";
 import { Devices } from "./ui/routes/devices";
 import type { Path } from "./ui/utils/routes";
 
-const router = createBrowserRouter([{ children: [
-	{ element: <Apps />, path: "/apps" satisfies Path },
-	{ element: <Devices />, path: "/devices" satisfies Path },
-	{ element: <Root />, path: "*" },
-], element: <Layout /> }]);
+const router = createBrowserRouter(
+	[{
+		children:
+		[
+			{ element: <Apps />, path: "/apps" satisfies Path },
+			{ element: <Devices />, path: "/devices" satisfies Path },
+			{ element: <Root />, path: "*" },
+		],
+		element: <Layout />,
+	}],
+	{
+		basename: import.meta.env.BASE_URL, // 🔗 https://vitejs.dev/guide/env-and-mode#env-variables
+	},
+);
 
 createRoot(document.getElementById("root")!).render(
 	<StrictMode>
