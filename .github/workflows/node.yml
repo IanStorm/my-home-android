@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://json.schemastore.org/github-workflow.json
+
+name: Node.js
+
+on:
+  pull_request:
+  push:
+
+jobs:
+  node-job:
+    name: Node.js
+    runs-on: ubuntu-22.04
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - run: npm clean-install
+
+      - run: npm test
