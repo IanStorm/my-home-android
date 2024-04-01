@@ -1,10 +1,7 @@
-import {
-	Badge,
-	IconButton,
-} from "@mui/material";
+import { Badge } from "@mui/material";
 import type { FunctionComponent } from "react";
 
-import { Tooltip } from "../../components";
+import { IconButton } from "../../components";
 import { useMeta } from "../../contexts";
 import {
 	GitHubIcon,
@@ -16,26 +13,21 @@ export const GitHubButton: FunctionComponent = () => {
 
 	if (!meta) return <></>;
 	else return (
-		<Tooltip
-			offsetY={-8}
-			title="Go to GitHub repository"
+		<IconButton
+			href={meta.githubURL.href}
+			size="medium"
+			target="_blank"
+			tooltip="Go to GitHub repository"
 		>
-			<IconButton
-				color="inherit"
-				href={meta.githubURL.href}
-				size="medium"
-				target="_blank"
+			<Badge
+				anchorOrigin={{ horizontal: "right", vertical: "top" }}
+				badgeContent={<OpenExternalIcon fontSize="inherit" />}
+				color="default"
 			>
-				<Badge
-					anchorOrigin={{ horizontal: "right", vertical: "top" }}
-					badgeContent={<OpenExternalIcon fontSize="inherit" />}
-					color="default"
-				>
-					<GitHubIcon
-						fontSize="inherit"
-					/>
-				</Badge>
-			</IconButton>
-		</Tooltip>
+				<GitHubIcon
+					fontSize="inherit"
+				/>
+			</Badge>
+		</IconButton>
 	);
 };

@@ -1,13 +1,13 @@
 import {
 	AppBar,
 	Drawer,
-	IconButton,
 	Toolbar,
 } from "@mui/material";
 import type { FunctionComponent } from "react";
 import { useState } from "react";
 
 import { MenuIcon } from "../../icons";
+import { IconButton } from "../IconButton";
 import { GitHubButton } from "./GitHubButton";
 import { Nav } from "./Nav";
 import { ThemeSwitch } from "./ThemeSwitch";
@@ -26,10 +26,9 @@ export const Header: FunctionComponent = () => {
 				<Toolbar>
 					<IconButton
 						aria-label="open nav"
-						color="inherit"
 						edge="start"
+						mr={2}
 						onClick={toggleDrawer}
-						sx={{ mr: 2 }}
 					>
 						<MenuIcon fontSize="inherit" />
 					</IconButton>
