@@ -1,6 +1,7 @@
 export interface App {
 	readonly isOSS?: false | OSSInfo
 	readonly name: string
+	readonly playStoreID: string | false
 }
 
 type GitHubOSS = OSSInfoBase<"GitHub">

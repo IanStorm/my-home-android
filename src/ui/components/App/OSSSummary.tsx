@@ -2,6 +2,7 @@ import type { SvgIconOwnProps } from "@mui/material";
 import { Badge } from "@mui/material";
 import type { FunctionComponent } from "react";
 
+import { IconButton } from "../../components";
 import type { App } from "../../contexts";
 import {
 	GitHubIcon,
@@ -9,7 +10,6 @@ import {
 	OSSActiveIcon,
 	OSSInactiveIcon,
 } from "../../icons";
-import { IconButton } from "../IconButton";
 
 interface Props {
 	readonly isOSS: App["isOSS"]

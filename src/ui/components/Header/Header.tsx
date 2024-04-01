@@ -6,8 +6,8 @@ import {
 import type { FunctionComponent } from "react";
 import { useState } from "react";
 
+import { IconButton } from "../../components/IconButton";
 import { MenuIcon } from "../../icons";
-import { IconButton } from "../IconButton";
 import { GitHubButton } from "./GitHubButton";
 import { Nav } from "./Nav";
 import { ThemeSwitch } from "./ThemeSwitch";

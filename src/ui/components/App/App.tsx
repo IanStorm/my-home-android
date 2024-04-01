@@ -14,6 +14,8 @@ import type { App as UIApp } from "../../contexts";
 import { ExpandIcon } from "../../icons";
 import { OSSDetails } from "./OSSDetails";
 import { OSSSummary } from "./OSSSummary";
+import { PlayDetails } from "./PlayDetails";
+import { PlaySummary } from "./PlaySummary";
 
 interface Props {
 	readonly app: UIApp
@@ -66,12 +68,19 @@ export const App: FunctionComponent<Props> = ({ app }) => {
 						{app.name}
 					</Typography>
 
+					<PlaySummary playStore={app.playStore} />
 					<OSSSummary isOSS={app.isOSS} />
 				</Stack>
 			</AccordionSummary>
 
 			<AccordionDetails>
-				<OSSDetails isOSS={app.isOSS} />
+				<Stack
+					direction="row"
+					spacing={8}
+				>
+					<PlayDetails playStore={app.playStore} />
+					<OSSDetails isOSS={app.isOSS} />
+				</Stack>
 			</AccordionDetails>
 		</Accordion>
 	);

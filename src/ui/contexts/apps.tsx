@@ -16,10 +16,16 @@ type OSS =
 	| (model.OSSInfo & { readonly href: string })
 ;
 
+interface PlayStore {
+	readonly href: string
+	readonly id: Required<model.App["playStoreID"]>
+}
+
 export interface App {
 	readonly id: string
 	readonly isOSS?: OSS
 	readonly name: model.App["name"]
+	readonly playStore: PlayStore | false
 }
 
 interface AppsStore {
@@ -44,6 +50,10 @@ export const AppsProvider: FunctionComponent<PropsWithChildren> = ({ children })
 			id,
 			isOSS,
 			name: app.name,
+			playStore: !app.playStoreID ? false : {
+				href: `https://play.google.com/store/apps/details?id=${app.playStoreID}`,
+				id: app.playStoreID,
+			},
 		};
 	});
 

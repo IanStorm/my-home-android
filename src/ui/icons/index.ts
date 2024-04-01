@@ -8,6 +8,8 @@ import {
 	LightMode,
 	Menu,
 	OpenInNew,
+	PlayArrow,
+	PlayDisabled,
 	SentimentVeryDissatisfiedOutlined,
 	Smartphone,
 } from "@mui/icons-material";
@@ -29,5 +31,8 @@ export const OpenExternalIcon = OpenInNew;
 
 export const OSSActiveIcon = Code;
 export const OSSInactiveIcon = CodeOff;
+
+export const PlayStoreActiveIcon = PlayArrow;
+export const PlayStoreInactiveIcon = PlayDisabled;
 
 export const SadSmileyIcon = SentimentVeryDissatisfiedOutlined;
