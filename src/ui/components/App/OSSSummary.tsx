@@ -1,9 +1,12 @@
-import type { SvgIconOwnProps } from "@mui/material";
 import { Badge } from "@mui/material";
 import type { FunctionComponent } from "react";
 
 import { IconButton } from "../../components";
 import type { App } from "../../contexts";
+import type {
+	Icon,
+	IconProps,
+} from "../../icons";
 import {
 	GitHubIcon,
 	OpenExternalIcon,
@@ -16,20 +19,20 @@ interface Props {
 }
 
 export const OSSSummary: FunctionComponent<Props> = ({ isOSS }) => {
-	let BadgeContent: FunctionComponent<SvgIconOwnProps> | undefined;
-	let color: SvgIconOwnProps["color"];
-	let title: string;
+	let BadgeContent: Icon | undefined;
+	let color: IconProps["color"];
+	let tooltip: string;
 
 	if (isOSS === false) {
 		color = "error";
-		title = "Is closed source";
+		tooltip = "Is closed source";
 	} else if (typeof isOSS === "object") {
 		BadgeContent = isOSS.host === "GitHub" ? GitHubIcon : OpenExternalIcon;
 		color = "success";
-		title = `Open source code on ${isOSS.host}`;
+		tooltip = `Open source code on ${isOSS.host}`;
 	} else { isOSS satisfies undefined;
 		color = "disabled";
-		title = "Source code availability unknown";
+		tooltip = "Source code availability unknown";
 	}
 
 	return (
@@ -37,7 +40,7 @@ export const OSSSummary: FunctionComponent<Props> = ({ isOSS }) => {
 			href={isOSS ? isOSS.href : ""}
 			isDisabled={!isOSS}
 			target="_blank"
-			tooltip={title}
+			tooltip={tooltip}
 		>
 			<Badge
 				anchorOrigin={{ horizontal: "right", vertical: "top" }}

@@ -3,6 +3,7 @@ import {
 	Accordion,
 	AccordionDetails,
 	AccordionSummary,
+	Grid,
 	IconButton,
 	Stack,
 	Typography,
@@ -16,6 +17,8 @@ import { OSSDetails } from "./OSSDetails";
 import { OSSSummary } from "./OSSSummary";
 import { PlayDetails } from "./PlayDetails";
 import { PlaySummary } from "./PlaySummary";
+import { PrivacyDetails } from "./PrivacyDetails";
+import { PrivacySummary } from "./PrivacySummary";
 
 interface Props {
 	readonly app: UIApp
@@ -70,17 +73,18 @@ export const App: FunctionComponent<Props> = ({ app }) => {
 
 					<PlaySummary playStore={app.playStore} />
 					<OSSSummary isOSS={app.isOSS} />
+					<PrivacySummary privacyAudit={app.privacyAudit} />
 				</Stack>
 			</AccordionSummary>
 
 			<AccordionDetails>
-				<Stack
-					direction="row"
-					spacing={8}
+				<Grid container
+					columnSpacing={8} rowSpacing={2}
 				>
-					<PlayDetails playStore={app.playStore} />
-					<OSSDetails isOSS={app.isOSS} />
-				</Stack>
+					<Grid item><PlayDetails playStore={app.playStore} /></Grid>
+					<Grid item><OSSDetails isOSS={app.isOSS} /></Grid>
+					<Grid item><PrivacyDetails privacyAudit={app.privacyAudit} /></Grid>
+				</Grid>
 			</AccordionDetails>
 		</Accordion>
 	);

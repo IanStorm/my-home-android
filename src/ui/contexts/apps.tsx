@@ -11,21 +11,29 @@ import * as data from "../../data/db";
 import type * as model from "../../data/model";
 
 type OSS =
-	| false
-	| undefined
+	| Exclude<model.App["isOSS"], model.OSSInfo>
 	| (model.OSSInfo & { readonly href: string })
 ;
 
-interface PlayStore {
-	readonly href: string
-	readonly id: Required<model.App["playStoreID"]>
-}
+type PlayStore =
+	| Exclude<model.App["playStoreID"], string>
+	| {
+		readonly href: string
+		readonly id: Required<model.App["playStoreID"]>
+	}
+;
+
+type PrivacyAudit =
+	| Exclude<model.App["privacyAudit"], model.PrivacyAudit>
+	| (model.PrivacyAudit & { readonly href: string })
+;
 
 export interface App {
 	readonly id: string
 	readonly isOSS?: OSS
 	readonly name: model.App["name"]
-	readonly playStore: PlayStore | false
+	readonly playStore: PlayStore
+	readonly privacyAudit?: PrivacyAudit
 }
 
 interface AppsStore {
@@ -46,6 +54,14 @@ export const AppsProvider: FunctionComponent<PropsWithChildren> = ({ children })
 			isOSS = app.isOSS;
 		}
 
+		let privacyAudit: App["privacyAudit"];
+		if (typeof app.privacyAudit === "object") {
+			const href = `https://reports.exodus-privacy.eu.org/en/reports/${app.privacyAudit.reportID}`;
+			privacyAudit = { ...app.privacyAudit, href };
+		} else { app.privacyAudit satisfies undefined;
+			privacyAudit = app.privacyAudit;
+		}
+
 		return {
 			id,
 			isOSS,
@@ -54,6 +70,7 @@ export const AppsProvider: FunctionComponent<PropsWithChildren> = ({ children })
 				href: `https://play.google.com/store/apps/details?id=${app.playStoreID}`,
 				id: app.playStoreID,
 			},
+			privacyAudit,
 		};
 	});
 
