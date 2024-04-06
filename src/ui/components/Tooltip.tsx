@@ -18,9 +18,13 @@ export const Tooltip: FunctionComponent<Props> = ({
 		<MUITooltip
 			arrow={true}
 			enterDelay={500}
-			slotProps={{ popper: { modifiers: [
-				{ name: "offset", options: { offset: [0, offsetY] } },
-			]}}}
+			slotProps={{
+				popper: {
+					modifiers: [
+						{ name: "offset", options: { offset: [0, offsetY] } },
+					],
+				},
+			}}
 			title={title}
 		>
 			{children}

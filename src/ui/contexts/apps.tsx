@@ -75,7 +75,7 @@ export const AppsProvider: FunctionComponent<PropsWithChildren> = ({ children })
 	});
 
 	return (
-		<AppsContext.Provider value={{apps}}>
+		<AppsContext.Provider value={{ apps }}>
 			{children}
 		</AppsContext.Provider>
 	);
