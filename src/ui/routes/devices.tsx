@@ -1,4 +1,4 @@
-import type { FunctionComponent} from "react";
+import type { FunctionComponent } from "react";
 import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 
