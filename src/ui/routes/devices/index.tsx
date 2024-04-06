@@ -4,15 +4,25 @@ import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 
 import { Device } from "../../components";
-import { useDevices } from "../../contexts";
+import {
+	useDevices,
+	useHint,
+} from "../../contexts";
 import type { Path } from "../../utils/routes";
 
 export const Devices: FunctionComponent = () => {
 	const { devices } = useDevices();
+	const { setHint } = useHint();
 	const navigate = useNavigate();
 
 	useEffect(() => {
-		if (!devices) navigate("/" satisfies Path);
+		if (!devices) {
+			setHint({
+				msg: "Devices couldn't be loaded, please try again later. If this issue persists, contact your admin.",
+				severity: "error",
+			});
+			navigate("/" satisfies Path);
+		}
 	}, []);
 
 	if (!devices) return <></>;

@@ -4,15 +4,25 @@ import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 
 import { App } from "../components";
-import { useApps } from "../contexts";
+import {
+	useApps,
+	useHint,
+} from "../contexts";
 import type { Path } from "../utils/routes";
 
 export const Apps: FunctionComponent = () => {
 	const { apps } = useApps();
+	const { setHint } = useHint();
 	const navigate = useNavigate();
 
 	useEffect(() => {
-		if (!apps) navigate("/" satisfies Path);
+		if (!apps) {
+			setHint({
+				msg: "Apps couldn't be loaded, please try again later. If this issue persists, contact your admin.",
+				severity: "error",
+			});
+			navigate("/" satisfies Path);
+		}
 	}, []);
 
 	if (!apps) return <></>;

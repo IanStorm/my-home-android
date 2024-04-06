@@ -10,6 +10,7 @@ import { Layout } from "./ui/components";
 import {
 	AppsProvider,
 	DevicesProvider,
+	HintProvider,
 	MetaProvider,
 	ThemeProvider,
 } from "./ui/contexts";
@@ -41,8 +42,10 @@ createRoot(document.getElementById("root")!).render(
 			<AppsProvider>
 				<DevicesProvider>
 					<ThemeProvider>
-						<CssBaseline />
-						<RouterProvider router={router} />
+						<HintProvider>
+							<CssBaseline />
+							<RouterProvider router={router} />
+						</HintProvider>
 					</ThemeProvider>
 				</DevicesProvider>
 			</AppsProvider>
