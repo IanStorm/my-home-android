@@ -39,7 +39,7 @@ export const Nav: FunctionComponent<Props> = ({
 			sx={{ minWidth: 400 }}
 		>
 			<Box px={3+(3+2)} py={2}>
-				<Title />
+				<Title onClick={onNavigate} />
 			</Box>
 
 			<Divider />
