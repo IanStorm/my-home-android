@@ -41,6 +41,8 @@ export const IconButton: FunctionComponent<Props> = (props) => {
 		: {}
 	;
 
+	const { children: _, isDisabled: __, ...hrefOrClick } = props;
+
 	return (
 		<Tooltip
 			offsetY={-8}
@@ -48,11 +50,12 @@ export const IconButton: FunctionComponent<Props> = (props) => {
 		>
 			<span> { /* 👈 🔗 https://mui.com/material-ui/react-tooltip/#disabled-elements */ }
 				<MUIIconButton
-					{...props}
+					{...hrefOrClick}
 					aria-label={props["aria-label"]}
 					color="inherit"
 					disabled={props.isDisabled}
 					edge={props.edge}
+					size={props.size}
 					sx={{
 						...disabledSx,
 						mr: props.mr,
