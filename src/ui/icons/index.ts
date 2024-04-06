@@ -4,6 +4,7 @@ import {
 	Code,
 	CodeOff,
 	DarkMode,
+	Devices,
 	ExpandMore,
 	GitHub,
 	GppBad,
@@ -17,6 +18,7 @@ import {
 	SentimentVeryDissatisfiedOutlined,
 	Shield,
 	Smartphone,
+	TabletAndroid,
 } from "@mui/icons-material";
 import type { SvgIconProps } from "@mui/material";
 
@@ -25,7 +27,9 @@ export type IconProps = SvgIconProps;
 
 export const AppsIcon = Apps;
 
-export const DevicesIcon = Smartphone;
+export const DevicesIcon = Devices;
+export const DeviceTypePhoneIcon = Smartphone;
+export const DeviceTypeTabletIcon = TabletAndroid;
 
 export const ExpandIcon = ExpandMore;
 

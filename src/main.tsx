@@ -16,6 +16,7 @@ import {
 import { Root } from "./ui/routes";
 import { Apps } from "./ui/routes/apps";
 import { Devices } from "./ui/routes/devices";
+import { DeviceID } from "./ui/routes/devices/id";
 import type { Path } from "./ui/utils/routes";
 
 const router = createBrowserRouter(
@@ -24,6 +25,7 @@ const router = createBrowserRouter(
 		[
 			{ element: <Apps />, path: "/apps" satisfies Path },
 			{ element: <Devices />, path: "/devices" satisfies Path },
+			{ element: <DeviceID />, path: "/devices/:deviceID" satisfies Path },
 			{ element: <Root />, path: "*" },
 		],
 		element: <Layout />,

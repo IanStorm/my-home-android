@@ -1,9 +1,19 @@
-export interface App {
-	readonly isOSS?: false | OSSInfo
-	readonly name: string
-	readonly playStoreID: string | false
-	readonly privacyAudit?: PrivacyAudit
-}
+export type App =
+& {
+		readonly isOSS?: false | OSSInfo
+		readonly name: string
+		readonly privacyAudit?: PrivacyAudit
+	} & (
+		| {
+			readonly id: AppID
+			readonly playStoreID: false
+		} | {
+			readonly playStoreID: PlayStoreID
+		}
+	)
+;
+
+export type AppID = string
 
 interface ExodusPrivacyAudit extends PrivacyAuditBase<"Exodus"> {
 	readonly permissionCount: number
@@ -25,6 +35,8 @@ interface OSSInfoBase<THost extends string> {
 	readonly owner: string
 	readonly repository: string
 }
+
+export type PlayStoreID = string
 
 export type PrivacyAudit =
 	| ExodusPrivacyAudit

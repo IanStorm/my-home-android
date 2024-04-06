@@ -64,6 +64,7 @@ const chefkoch: App = {
 };
 
 const fairphoneCamera: App = {
+	id: "fairphone-camera",
 	isOSS: false,
 	name: "(Fairphone) Camera",
 	playStoreID: false,

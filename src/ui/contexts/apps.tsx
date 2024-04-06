@@ -15,26 +15,26 @@ type OSS =
 	| (model.OSSInfo & { readonly href: string })
 ;
 
-type PlayStore =
-	| Exclude<model.App["playStoreID"], string>
-	| {
-		readonly href: string
-		readonly id: Required<model.App["playStoreID"]>
-	}
-;
+interface PlayStore {
+	readonly href: string
+	readonly id: Required<model.App["playStoreID"]>
+}
 
 type PrivacyAudit =
 	| Exclude<model.App["privacyAudit"], model.PrivacyAudit>
 	| (model.PrivacyAudit & { readonly href: string })
 ;
 
-export interface App {
-	readonly id: string
-	readonly isOSS?: OSS
-	readonly name: model.App["name"]
-	readonly playStore: PlayStore
-	readonly privacyAudit?: PrivacyAudit
-}
+export type App =
+	& Pick<model.App,
+		| "name"
+	> & {
+		readonly id: model.AppID
+		readonly isOSS?: OSS
+		readonly playStore?: PlayStore
+		readonly privacyAudit?: PrivacyAudit
+	}
+;
 
 interface AppsStore {
 	readonly apps?: ReadonlyArray<App>
@@ -45,7 +45,7 @@ const AppsContext = createContext<AppsStore>({});
 export const useApps = () => useContext(AppsContext);
 
 export const AppsProvider: FunctionComponent<PropsWithChildren> = ({ children }) => {
-	const apps: AppsStore["apps"] = Object.entries(data.apps).map(([id, app]) => {
+	const apps: AppsStore["apps"] = Object.values(data.apps).map((app) => {
 		let isOSS: App["isOSS"];
 		if (typeof app.isOSS === "object") {
 			const href = `https://${app.isOSS.host.toLowerCase()}.com/${app.isOSS.owner}/${app.isOSS.repository}`;
@@ -63,10 +63,10 @@ export const AppsProvider: FunctionComponent<PropsWithChildren> = ({ children })
 		}
 
 		return {
-			id,
+			id: app.playStoreID === false ? app.id : app.playStoreID,
 			isOSS,
 			name: app.name,
-			playStore: !app.playStoreID ? false : {
+			playStore: !app.playStoreID ? undefined : {
 				href: `https://play.google.com/store/apps/details?id=${app.playStoreID}`,
 				id: app.playStoreID,
 			},
