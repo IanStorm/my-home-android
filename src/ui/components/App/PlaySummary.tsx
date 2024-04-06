@@ -16,7 +16,6 @@ export const PlaySummary: FunctionComponent<Props> = ({ playStore }) => {
 		<IconButton
 			href={playStore ? playStore.href : ""}
 			isDisabled={!playStore}
-			target="_blank"
 			tooltip={`${playStore ? "A" : "Not a"}vailable on Google Play`}
 		>
 			{

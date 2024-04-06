@@ -39,7 +39,6 @@ export const OSSSummary: FunctionComponent<Props> = ({ isOSS }) => {
 		<IconButton
 			href={isOSS ? isOSS.href : ""}
 			isDisabled={!isOSS}
-			target="_blank"
 			tooltip={tooltip}
 		>
 			<Badge

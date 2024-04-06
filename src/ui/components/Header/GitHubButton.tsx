@@ -16,7 +16,6 @@ export const GitHubButton: FunctionComponent = () => {
 		<IconButton
 			href={meta.githubURL.href}
 			size="medium"
-			target="_blank"
 			tooltip="Go to GitHub repository"
 		>
 			<Badge

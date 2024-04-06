@@ -41,7 +41,6 @@ export const PrivacySummary: FunctionComponent<Props> = ({ privacyAudit }) => {
 		<IconButton
 			href={privacyAudit?.href || ""}
 			isDisabled={privacyAudit === undefined}
-			target="_blank"
 			tooltip={tooltip}
 		>
 			<PrivacyIcon color={color} />

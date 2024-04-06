@@ -22,9 +22,8 @@ type Props =
 	> & (
 		| Required<Pick<MUIIconButtonProps,
 			| "onClick"
-		>> | Required<Pick<AnchorHTMLAttributes<unknown>,
+		>> | Required<Pick<AnchorHTMLAttributes<HTMLAnchorElement>,
 			| "href"
-			| "target"
 		>>
 	) & {
 		readonly isDisabled?: boolean
@@ -41,7 +40,17 @@ export const IconButton: FunctionComponent<Props> = (props) => {
 		: {}
 	;
 
-	const { children: _, isDisabled: __, ...hrefOrClick } = props;
+	const iconBtnProps = {
+		"aria-label": props["aria-label"],
+		color: "inherit",
+		disabled: props.isDisabled,
+		edge: props.edge,
+		size: props.size,
+		sx: {
+			...disabledSx,
+			mr: props.mr,
+		},
+	} satisfies MUIIconButtonProps;
 
 	return (
 		<Tooltip
@@ -49,20 +58,23 @@ export const IconButton: FunctionComponent<Props> = (props) => {
 			title={props.tooltip}
 		>
 			<span> { /* 👈 🔗 https://mui.com/material-ui/react-tooltip/#disabled-elements */ }
-				<MUIIconButton
-					{...hrefOrClick}
-					aria-label={props["aria-label"]}
-					color="inherit"
-					disabled={props.isDisabled}
-					edge={props.edge}
-					size={props.size}
-					sx={{
-						...disabledSx,
-						mr: props.mr,
-					}}
-				>
-					{props.children}
-				</MUIIconButton>
+				{"href" in props ? (
+					<MUIIconButton
+						{...iconBtnProps}
+						href={props.href}
+						rel="noreferrer" // 👈 https://mui.com/material-ui/react-link/#security
+						target="_blank"
+					>
+						{props.children}
+					</MUIIconButton>
+				) : (
+					<MUIIconButton
+						{...iconBtnProps}
+						onClick={props.onClick}
+					>
+						{props.children}
+					</MUIIconButton>
+				)}
 			</span>
 		</Tooltip>
 	);
