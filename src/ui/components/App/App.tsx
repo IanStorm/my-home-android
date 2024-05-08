@@ -1,4 +1,4 @@
-import type { SxProps } from "@mui/material";
+import type { AccordionProps } from "@mui/material";
 import {
 	Accordion,
 	AccordionDetails,
@@ -36,7 +36,7 @@ export const App: FunctionComponent<Props> = ({ app }) => {
 	 *
 	 * 🔗 https://stackoverflow.com/a/61398018/6694769
 	 */
-	const accordionSx: SxProps = {
+	const accordionSx: AccordionProps["sx"] = {
 		"&:hover:not(.Mui-disabled)": {
 			cursor: "unset",
 		},
