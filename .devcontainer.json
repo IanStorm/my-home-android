@@ -22,5 +22,8 @@
 			"moby": true
 		}
 	},
+	"forwardPorts": [
+		5173
+	],
 	"remoteUser": "node"
 }
