@@ -611,7 +611,7 @@ const immoScout24: App = {
 	},
 };
 
-const ingBaking: App = {
+const ingBanking: App = {
 	isOSS: false,
 	name: "ING Banking",
 	playStoreID: "de.ingdiba.bankingapp",
@@ -1386,7 +1386,7 @@ export const apps = {
 	heavensAbove,
 	homescapes,
 	immoScout24,
-	ingBaking,
+	ingBanking,
 	katwarn,
 	kicker,
 	komoot,
