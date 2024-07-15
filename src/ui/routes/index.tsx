@@ -8,10 +8,10 @@ export const Root: FunctionComponent = () => {
 	const navigate = useNavigate();
 
 	useEffect(() => {
-		navigate("/" satisfies Path);
+		navigate("/devices" satisfies Path);
 	}, []);
 
 	return (
-		<>TODO: Root</>
+		<></>
 	);
 };

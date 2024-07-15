@@ -31,7 +31,7 @@ export const Title: FunctionComponent<Props> = ({ onClick }) => {
 
 				color="inherit"
 				underline="hover"
-				variant="h6"
+				variant="h5"
 			>
 				{meta.displayName}
 			</MUILink>
