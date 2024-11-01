@@ -8,6 +8,10 @@ import react from '@vitejs/plugin-react'
 export default defineConfig(({ command, mode }) => {
 	const sharedConfig: UserConfig = {
 		plugins: [react()],
+		test: {
+			environment: "jsdom",
+			setupFiles: ["src/test-setup.ts"],
+		}
 	};
 
 	if (command === "serve") { // 👈 dev env
